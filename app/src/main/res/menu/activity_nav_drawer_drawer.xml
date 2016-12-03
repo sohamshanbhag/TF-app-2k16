@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_event"
+            android:icon="@drawable/ic_menu_event"
+            android:title="Events" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_menu_message"
+            android:title="Messages" />
+        <item
+            android:id="@+id/nav_vb"
+            android:icon="@drawable/ic_menu_vb"
+            android:title="Virtual Betting" />
+    </group>
+
+    <item android:title="Miscellaneous">
+        <menu>
+            <item
+                android:id="@+id/nav_map"
+                android:icon="@drawable/ic_menu_map"
+                android:title="Map" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_about"
+                android:title="About Us" />
+            <item
+                android:id="@+id/nav_team"
+                android:icon="@drawable/ic_menu_team"
+                android:title="The team" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Techfest 2k16</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_event_detail">Events</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string-array name="event_titles">
+        <item>Competitions</item>
+        <item>Exhibitions</item>
+        <item>Ideate</item>
+        <item>Lectures</item>
+        <item>Ozone</item>
+        <item>Technoholix</item>
+        <item>Workshops</item>
+    </string-array>
+</resources>
