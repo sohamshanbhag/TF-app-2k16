@@ -9,16 +9,16 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 /**
- * Created by soham_shanbhag on 3/12/16.
+ * Created by soham_shanbhag on 4/12/16.
  */
 
-public class EventAdapterMain extends BaseAdapter {
+public class SubEventListAdapter extends BaseAdapter {
 
-	private Context mContext;
+    private Context mContext;
     private Integer[] mThumbs;
     private String[] mName;
 
-    public EventAdapterMain(Context context, Integer[] thumb, String[] name){
+    public SubEventListAdapter(Context context, Integer[] thumb, String[] name){
         mContext = context;
         mThumbs = thumb;
         mName = name;
@@ -37,17 +37,18 @@ public class EventAdapterMain extends BaseAdapter {
         return 0;
     }
 
+    // create a new ImageView for each item referenced by the Adapter
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        convertView = inflater.inflate(R.layout.grid_row_event, parent, false);
-        ImageView imageView = (ImageView) convertView.findViewById(R.id.gridRowEventImage);
-        TextView textView = (TextView) convertView.findViewById(R.id.gridRowEventText);
+        convertView = inflater.inflate(R.layout.grid_sub_event, parent, false);
+        ImageView imageView = (ImageView) convertView.findViewById(R.id.subEventImage);
+        TextView textView = (TextView) convertView.findViewById(R.id.subEventText);
 
+        // if it's not recycled, initialize some attributes
+        imageView.setImageResource(mThumbs[position]);
         textView.setText(mName[position]);
 
         return convertView;
     }
-
-
 
 }

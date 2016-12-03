@@ -24,7 +24,7 @@ public class ViewPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        return mFragmentList.get(position).newInstance("Fragment for page corresponding to " + titles[position]);
+        return mFragmentList.get(position).newInstance(titles[position]);
     }
 
     @Override

@@ -13,6 +13,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.Toast;
 
 public class NavDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -34,8 +35,7 @@ public class NavDrawer extends AppCompatActivity
 //        });
 
         /////////////////////
-        Integer[] images = {R.drawable.competitions_fg, R.drawable.exhibitions_fg, R.drawable.ideate_fg,
-                R.drawable.lectures_fg, R.drawable.ozone_fg, R.drawable.technoholix_fg, R.drawable.workshops_fg};
+        Integer[] images = {R.drawable.temp1, R.drawable.temp2, R.drawable.temp3, R.drawable.temp4};
 
         String[] titles = getResources().getStringArray(R.array.event_titles);
 
@@ -46,14 +46,15 @@ public class NavDrawer extends AppCompatActivity
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
-//                Toast.makeText(NavDrawer.this, "" + position,
-//                        Toast.LENGTH_SHORT).show();
+                Toast.makeText(NavDrawer.this, "" + position,
+                        Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), EventDetail.class);
                 intent.putExtra("position", position);
 //                View sharedView = v.findViewById(R.id.gridRowText);
 //                ActivityOptions options = ActivityOptions
 //                        .makeSceneTransitionAnimation(NavDrawer.this, sharedView, "department");
 //                startActivity(intent, options.toBundle());
+                startActivity(intent);
             }
         });
 

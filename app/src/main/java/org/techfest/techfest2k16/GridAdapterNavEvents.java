@@ -51,7 +51,4 @@ public class GridAdapterNavEvents extends BaseAdapter {
 
         return convertView;
     }
-
-
-
 }

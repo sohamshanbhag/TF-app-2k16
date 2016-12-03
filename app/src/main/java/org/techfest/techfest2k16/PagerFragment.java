@@ -1,3 +1,4 @@
+
 package org.techfest.techfest2k16;
 
 import android.os.Bundle;
@@ -5,6 +6,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ListView;
 import android.widget.TextView;
 
 /**
@@ -12,7 +14,6 @@ import android.widget.TextView;
  */
 
 public class PagerFragment extends Fragment {
-
 
     public static PagerFragment newInstance(String section) {
         PagerFragment fragment = new PagerFragment();
@@ -22,14 +23,27 @@ public class PagerFragment extends Fragment {
         return fragment;
     }
 
-    TextView textView;
+    String section;
+    ListView listview;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_event_detail,container,false);
 
-        textView = (TextView) view.findViewById(R.id.section_label);
-        textView.setText(getArguments().getString("Section"));
+        //////////////////////////
+
+        listview = (ListView) view.findViewById(R.id.eventMainList);
+
+        section = getArguments().getString("Section");
+
+        //////////////////////////
 
         return view;
+    }
+
+    @Override
+    public void onViewCreated(View view, Bundle savedInstanceState){
+        super.onViewCreated(view, savedInstanceState);
+
+        listview.setAdapter(new MainEventListAdapter(getActivity().getApplicationContext(), section));
     }
 }

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="Temp1_text">
+		<item>temp1</item>
+		<item>temp2</item>
+		<item>temp3</item>
+		<item>temp4</item>
+	</string-array>
+	<string-array name="Temp2_text">
+		<item>temp1</item>
+		<item>temp2</item>
+		<item>temp3</item>
+		<item>temp4</item>
+	</string-array>
+	<string-array name="Temp3_text">
+		<item>temp1</item>
+		<item>temp2</item>
+		<item>temp3</item>
+		<item>temp4</item>
+	</string-array>
+	<string-array name="Temp4_text">
+		<item>temp1</item>
+		<item>temp2</item>
+		<item>temp3</item>
+		<item>temp4</item>
+	</string-array>
+	<array name="Temp1_img">
+		<item>@drawable/temp1</item>
+		<item>@drawable/temp2</item>
+		<item>@drawable/temp3</item>
+		<item>@drawable/temp4</item>
+	</array>
+	<array name="Temp2_img">
+		<item>@drawable/temp1</item>
+		<item>@drawable/temp2</item>
+		<item>@drawable/temp3</item>
+		<item>@drawable/temp4</item>
+	</array>
+	<array name="Temp3_img">
+		<item>@drawable/temp1</item>
+		<item>@drawable/temp2</item>
+		<item>@drawable/temp3</item>
+		<item>@drawable/temp4</item>
+	</array>
+	<array name="Temp4_img">
+		<item>@drawable/temp1</item>
+		<item>@drawable/temp2</item>
+		<item>@drawable/temp3</item>
+		<item>@drawable/temp4</item>
+	</array>
+</resources>

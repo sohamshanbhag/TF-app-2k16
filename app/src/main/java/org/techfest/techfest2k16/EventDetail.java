@@ -46,7 +46,7 @@ public class EventDetail extends AppCompatActivity {
         setContentView(R.layout.activity_event_detail);
 
         Intent intent = getIntent();
-        int pos = intent.getIntExtra("position", -1);
+        int pos = intent.getIntExtra("position", 0);
 
         ArrayList<PagerFragment> fragments = new ArrayList<PagerFragment>();
         PagerFragment tempFrag;
@@ -68,8 +68,7 @@ public class EventDetail extends AppCompatActivity {
         // Set up the ViewPager with the sections adapter.
         mViewPager = (ViewPager) findViewById(R.id.container);
         mViewPager.setAdapter(mSectionsPagerAdapter);
-        if(pos != -1) mViewPager.setCurrentItem(pos);
-        else mViewPager.setCurrentItem(0);
+        mViewPager.setCurrentItem(pos);
 
         TabLayout tabLayout = (TabLayout) findViewById(R.id.tabs);
         tabLayout.setupWithViewPager(mViewPager);
