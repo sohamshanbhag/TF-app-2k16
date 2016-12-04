@@ -46,8 +46,8 @@ public class NavDrawer extends AppCompatActivity
         gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             public void onItemClick(AdapterView<?> parent, View v,
                                     int position, long id) {
-                Toast.makeText(NavDrawer.this, "" + position,
-                        Toast.LENGTH_SHORT).show();
+//                Toast.makeText(NavDrawer.this, "" + position,
+//                        Toast.LENGTH_SHORT).show();
                 Intent intent = new Intent(getApplicationContext(), EventDetail.class);
                 intent.putExtra("position", position);
 //                View sharedView = v.findViewById(R.id.gridRowText);

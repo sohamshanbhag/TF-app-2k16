@@ -1,29 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	<string-array name="Temp1_text">
-		<item>temp1</item>
-		<item>temp2</item>
-		<item>temp3</item>
-		<item>temp4</item>
-	</string-array>
-	<string-array name="Temp2_text">
-		<item>temp1</item>
-		<item>temp2</item>
-		<item>temp3</item>
-		<item>temp4</item>
-	</string-array>
-	<string-array name="Temp3_text">
-		<item>temp1</item>
-		<item>temp2</item>
-		<item>temp3</item>
-		<item>temp4</item>
-	</string-array>
-	<string-array name="Temp4_text">
-		<item>temp1</item>
-		<item>temp2</item>
-		<item>temp3</item>
-		<item>temp4</item>
-	</string-array>
+	
+
+    <string-array name="event_titles">
+        <item>Temp1</item>
+        <item>Temp2</item>
+        <item>Temp3</item>
+        <item>Temp4</item>
+    </string-array>
+
+    <string-array name="Temp1_text">
+        <item>Temp1_1_text</item>
+        <item>Temp1_2_text</item>
+        <item>Temp1_3_text</item>
+        <item>Temp1_4_text</item>
+    </string-array>
+
+    <string-array name="Temp2_text">
+        <item>Temp2_1_text</item>
+        <item>Temp2_2_text</item>
+        <item>Temp2_3_text</item>
+        <item>Temp2_4_text</item>
+    </string-array>
+
+    <string-array name="Temp3_text">
+        <item>Temp3_1_text</item>
+        <item>Temp3_2_text</item>
+        <item>Temp3_3_text</item>
+        <item>Temp3_4_text</item>
+    </string-array>
+
+    <string-array name="Temp4_text">
+        <item>Temp4_1_text</item>
+        <item>Temp4_2_text</item>
+        <item>Temp4_3_text</item>
+        <item>Temp4_4_text</item>
+    </string-array>
+
 	<array name="Temp1_img">
 		<item>@drawable/temp1</item>
 		<item>@drawable/temp2</item>

@@ -3,11 +3,13 @@ package org.techfest.techfest2k16;
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
+import android.media.Image;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -20,12 +22,10 @@ public class MainEventListAdapter extends BaseAdapter {
     private Context mContext;
     private Integer[] mThumbs;
     private String[] mName;
-    private String[] mMajorName;
-
+    
     public MainEventListAdapter(Context context, String name){
         mContext = context;
         Resources res = context.getResources();
-        mMajorName = res.getStringArray(res.getIdentifier(name + "_events_head", "array", "org.techfest.techfest2k16"));
         mName = res.getStringArray(res.getIdentifier(name + "_text", "array", "org.techfest.techfest2k16"));
         TypedArray ar = res.obtainTypedArray(res.getIdentifier(name + "_img", "array", "org.techfest.techfest2k16"));
         mThumbs = new Integer[ar.length()];
@@ -53,12 +53,11 @@ public class MainEventListAdapter extends BaseAdapter {
         LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         convertView = inflater.inflate(R.layout.grid_row_event, parent, false);
         TextView textView = (TextView) convertView.findViewById(R.id.eventSubHeading);
-        final GridView gridviewEvent = (GridView) convertView.findViewById(R.id.eventSubEvent);
-
-        gridviewEvent.setAdapter(new SubEventListAdapter(mContext, mThumbs, mName));
+        final ImageView imageview = (ImageView) convertView.findViewById(R.id.eventSubEvent);
 
         // if it's not recycled, initialize some attributes
-        textView.setText(mMajorName[position]);
+        textView.setText(mName[position]);
+        imageview.setImageResource(mThumbs[position]);
 
         return convertView;
     }

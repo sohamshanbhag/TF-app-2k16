@@ -13,8 +13,6 @@
     tools:context="org.techfest.techfest2k16.NavDrawer"
     tools:showIn="@layout/app_bar_nav_drawer">
 
-
-
     <GridView
         android:id="@+id/event_grid"
         android:layout_marginStart="64dp"

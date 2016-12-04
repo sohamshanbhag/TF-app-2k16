@@ -8,39 +8,5 @@
     <string name="title_activity_event_detail">Events</string>
     <string name="section_format">Hello World from section: %1$d</string>
 
-    <string-array name="event_titles">
-        <item>Temp1</item>
-        <item>Temp2</item>
-        <item>Temp3</item>
-        <item>Temp4</item>
-    </string-array>
-
-    <string-array name="Temp1_events_head">
-        <item>Temp1</item>
-        <item>Temp2</item>
-        <item>Temp3</item>
-        <item>Temp4</item>
-    </string-array>
-
-    <string-array name="Temp2_events_head">
-        <item>Temp1</item>
-        <item>Temp2</item>
-        <item>Temp3</item>
-        <item>Temp4</item>
-    </string-array>
-
-    <string-array name="Temp3_events_head">
-        <item>Temp1</item>
-        <item>Temp2</item>
-        <item>Temp3</item>
-        <item>Temp4</item>
-    </string-array>
-
-    <string-array name="Temp4_events_head">
-        <item>Temp1</item>
-        <item>Temp2</item>
-        <item>Temp3</item>
-        <item>Temp4</item>
-    </string-array>
 
 </resources>
