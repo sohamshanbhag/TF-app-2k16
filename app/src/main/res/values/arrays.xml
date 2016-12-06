@@ -1,64 +1,223 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-	
+
+    <string-array name="compi_content">
+        <item>Built an autonomous bot who finds the shortest path in the maze of glory</item>
+        <item>A machine that can cross any hurdles in its path and establish its glory.</item>
+        <item>A quest to solve unconventional coding questions</item>
+        <item>A battle for techies to win the glory with two bots on the international platform</item>
+        <item>A combat between robots to win by destroying other robots</item>
+        <item>Make an IC engine car which can race on any track with any obstacles.</item>
+        <item>Design and build the submarine to complete the underwater missions</item>
+        <item>Battery critically low! A chance to make a reliable 24x7 charger</item>
+        <item>Use Analytics to find the best team from given data and predict who will win the game.</item>
+        <item>Design and construct a chimney tower using posicles that can sustain the maximm load</item>
+        <item>A challenge to combine energy and enviornment and come up with an economical housing plan</item>
+        <item>Design a drone of given dimension which can cross the obstacles, carry and hover with the given load</item>
+        <item>Asia’s biggest RC model plane competition.</item>
+        <item>Image processing for a data set of satellite imagery that reveals the terrain map</item>
+        <item>Design an app that keeps track of your health and awares you of any health problems.</item>
+    </string-array>
+
+    <string-array name="contact_name">
+        <item>Rakesh Sharma</item>
+        <item>Nirmala Sitharaman</item>
+        <item>SHARMILA TAGORE</item>
+        <item>PETER ATKINS</item>
+        <item>Bruce Allen</item>
+        <item>MARK PAPERMASTER</item>
+        <item>HENRY SCHAEFER</item>
+        <item>SALIL SHETTY</item>
+        <item>JEFF DEMAIN</item>
+        <item>A S Kiran Kumar</item>
+        <item>Deepali Pant Joshi</item>
+        <item>Henry Throop</item>
+        <item>K. Kasturirangan</item>
+        <item>Guenakh Mitselmakher</item>
+        <item>Gordon Gill</item>
+        <item>Abhas Mitra</item>
+        <item>Shamit Kachru</item>
+        <item>Bedabrata Pain</item>
+        <item>David Baker</item>
+    </string-array>
+
+    <array name="contact_img">
+        <item>@drawable/rakesh</item>
+        <item>@drawable/sharmila</item>
+        <item>@drawable/atkins</item>
+        <item>@drawable/bruce</item>
+        <item>@drawable/papermaster</item>
+        <item>@drawable/henry</item>
+        <item>@drawable/salil</item>
+        <item>@drawable/kiran</item>
+        <item>@drawable/deepali</item>
+        <item>@drawable/throop</item>
+        <item>@drawable/kasthurian</item>
+        <item>@drawable/guenakh</item>
+        <item>@drawable/gill</item>
+        <item>@drawable/abhas</item>
+        <item>@drawable/shamit</item>
+        <item>@drawable/pain</item>
+        <item>@drawable/david</item>
+    </array>
 
     <string-array name="event_titles">
-        <item>Temp1</item>
-        <item>Temp2</item>
-        <item>Temp3</item>
-        <item>Temp4</item>
+        <item>Initiatives</item>
+        <item>Ideate</item>
+        <item>Competitions</item>
+        <item>Workshops</item>
+        <item>TWMUN</item>
+        <item>Lectures</item>
+        <item>Exhibitions</item>
+        <item>Technoholix</item>
+        <item>Ozone</item>
     </string-array>
 
-    <string-array name="Temp1_text">
-        <item>Temp1_1_text</item>
-        <item>Temp1_2_text</item>
-        <item>Temp1_3_text</item>
-        <item>Temp1_4_text</item>
+    <string-array name="Initiatives_text">
+        <item>Initiati_1_text</item>
+        <item>Initiatives_2_text</item>
+        <item>Initiatives_3_text</item>
+        <item>Initiatives_4_text</item>
     </string-array>
 
-    <string-array name="Temp2_text">
-        <item>Temp2_1_text</item>
-        <item>Temp2_2_text</item>
-        <item>Temp2_3_text</item>
-        <item>Temp2_4_text</item>
+    <string-array name="Ideate_text">
+        <item>Initiati_1_text</item>
+        <item>Initiatives_2_text</item>
+        <item>Initiatives_3_text</item>
+        <item>Initiatives_4_text</item>
     </string-array>
 
-    <string-array name="Temp3_text">
-        <item>Temp3_1_text</item>
-        <item>Temp3_2_text</item>
-        <item>Temp3_3_text</item>
-        <item>Temp3_4_text</item>
+    <string-array name="Competitions_text">
+        <item>Competiti_1_text</item>
+        <item>Competitions_2_text</item>
+        <item>Competitions_3_text</item>
+        <item>Competitions_4_text</item>
     </string-array>
 
-    <string-array name="Temp4_text">
-        <item>Temp4_1_text</item>
-        <item>Temp4_2_text</item>
-        <item>Temp4_3_text</item>
-        <item>Temp4_4_text</item>
+    <string-array name="Workshops_text">
+        <item>Initiati_1_text</item>
+        <item>Initiatives_2_text</item>
+        <item>Initiatives_3_text</item>
+        <item>Initiatives_4_text</item>
     </string-array>
 
-	<array name="Temp1_img">
-		<item>@drawable/temp1</item>
-		<item>@drawable/temp2</item>
-		<item>@drawable/temp3</item>
-		<item>@drawable/temp4</item>
+    <string-array name="TWMUN_text">
+        <item>Initiati_1_text</item>
+        <item>Initiatives_2_text</item>
+        <item>Initiatives_3_text</item>
+        <item>Initiatives_4_text</item>
+    </string-array>
+
+    <string-array name="Lectures_text">
+        <item>Rakesh Sharma</item>
+        <item>Nirmala Sitharaman</item>
+        <item>SHARMILA TAGORE</item>
+        <item>PETER ATKINS</item>
+        <item>Bruce Allen</item>
+        <item>MARK PAPERMASTER</item>
+        <item>HENRY SCHAEFER</item>
+        <item>SALIL SHETTY</item>
+        <item>JEFF DEMAIN</item>
+        <item>A S Kiran Kumar</item>
+        <item>Deepali Pant Joshi</item>
+        <item>Henry Throop</item>
+        <item>K. Kasturirangan</item>
+        <item>Guenakh Mitselmakher</item>
+        <item>Gordon Gill</item>
+        <item>Abhas Mitra</item>
+        <item>Shamit Kachru</item>
+        <item>Bedabrata Pain</item>
+        <item>David Baker</item>
+    </string-array>
+
+    <string-array name="Exhibitions_text">
+        <item>Tem_1_text</item>
+        <item>Exhibitions_2_text</item>
+        <item>Exhibitions_3_text</item>
+        <item>Exhibitions_4_text</item>
+    </string-array>
+
+    <string-array name="Technoholix_text">
+        <item>Tem_1_text</item>
+        <item>Technoholix_2_text</item>
+        <item>Technoholix_3_text</item>
+        <item>Technoholix_4_text</item>
+    </string-array>
+
+    <string-array name="Ozone_text">
+        <item>Tem_1_text</item>
+        <item>Ozone_2_text</item>
+        <item>Ozone_3_text</item>
+        <item>Ozone_4_text</item>
+    </string-array>
+
+    <array name="Initiatives_img">
+        <item>@drawable/initiatives</item>
+        <item>@drawable/competitions</item>
+        <item>@drawable/exhibitions</item>
+        <item>@drawable/technoholix</item>
+    </array>
+    <array name="Ideate_img">
+        <item>@drawable/competitions</item>
+        <item>@drawable/exhibitions</item>
+        <item>@drawable/technoholix</item>
+        <item>@drawable/ozone</item>
+    </array>
+    <array name="Competitions_img">
+		<item>@drawable/competitions</item>
+		<item>@drawable/exhibitions</item>
+		<item>@drawable/technoholix</item>
+		<item>@drawable/ozone</item>
 	</array>
-	<array name="Temp2_img">
-		<item>@drawable/temp1</item>
-		<item>@drawable/temp2</item>
-		<item>@drawable/temp3</item>
-		<item>@drawable/temp4</item>
+    <array name="Workshops_img">
+        <item>@drawable/competitions</item>
+        <item>@drawable/exhibitions</item>
+        <item>@drawable/technoholix</item>
+        <item>@drawable/ozone</item>
+    </array>
+    <array name="TWMUN_img">
+        <item>@drawable/competitions</item>
+        <item>@drawable/exhibitions</item>
+        <item>@drawable/technoholix</item>
+        <item>@drawable/ozone</item>
+    </array>
+    <array name="Lectures_img">
+        <item>@drawable/rakesh</item>
+        <item>@drawable/nirmala</item>
+        <item>@drawable/sharmila</item>
+        <item>@drawable/atkins</item>
+        <item>@drawable/bruce</item>
+        <item>@drawable/papermaster</item>
+        <item>@drawable/henry</item>
+        <item>@drawable/salil</item>
+        <item>@drawable/demain</item>
+        <item>@drawable/kiran</item>
+        <item>@drawable/deepali</item>
+        <item>@drawable/throop</item>
+        <item>@drawable/kasthurian</item>
+        <item>@drawable/guenakh</item>
+        <item>@drawable/gill</item>
+        <item>@drawable/abhas</item>
+        <item>@drawable/shamit</item>
+        <item>@drawable/pain</item>
+        <item>@drawable/david</item>
+    </array>
+    <array name="Exhibitions_img">
+		<item>@drawable/competitions</item>
+		<item>@drawable/exhibitions</item>
+		<item>@drawable/technoholix</item>
+		<item>@drawable/ozone</item>
 	</array>
-	<array name="Temp3_img">
-		<item>@drawable/temp1</item>
-		<item>@drawable/temp2</item>
-		<item>@drawable/temp3</item>
-		<item>@drawable/temp4</item>
+	<array name="Technoholix_img">
+		<item>@drawable/competitions</item>
+		<item>@drawable/exhibitions</item>
+		<item>@drawable/technoholix</item>
+		<item>@drawable/ozone</item>
 	</array>
-	<array name="Temp4_img">
-		<item>@drawable/temp1</item>
-		<item>@drawable/temp2</item>
-		<item>@drawable/temp3</item>
-		<item>@drawable/temp4</item>
+	<array name="Ozone_img">
+		<item>@drawable/competitions</item>
+		<item>@drawable/exhibitions</item>
+		<item>@drawable/technoholix</item>
+		<item>@drawable/ozone</item>
 	</array>
 </resources>

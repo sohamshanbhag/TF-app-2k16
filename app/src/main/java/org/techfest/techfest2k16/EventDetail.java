@@ -50,7 +50,7 @@ public class EventDetail extends AppCompatActivity {
 
         ArrayList<PagerFragment> fragments = new ArrayList<PagerFragment>();
         PagerFragment tempFrag;
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 9; i++) {
             tempFrag = new PagerFragment();
             fragments.add(tempFrag);
         }

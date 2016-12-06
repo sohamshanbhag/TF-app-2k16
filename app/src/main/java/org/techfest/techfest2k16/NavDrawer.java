@@ -2,6 +2,7 @@ package org.techfest.techfest2k16;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -35,7 +36,7 @@ public class NavDrawer extends AppCompatActivity
 //        });
 
         /////////////////////
-        Integer[] images = {R.drawable.temp1, R.drawable.temp2, R.drawable.temp3, R.drawable.temp4};
+        Integer[] images = {R.drawable.competitions, R.drawable.exhibitions, R.drawable.technoholix, R.drawable.ozone};
 
         String[] titles = getResources().getStringArray(R.array.event_titles);
 
@@ -89,6 +90,9 @@ public class NavDrawer extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+        int id = item.getItemId();
+        Log.d("qwert",getString(id));
+
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
@@ -106,11 +110,14 @@ public class NavDrawer extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        int id = item.getItemId();
 
+        int id = item.getItemId();
         if (id == R.id.nav_event) {
-            // Handle the camera action
+            Intent intent = new Intent(getApplicationContext(), EventDetail.class);
+            intent.putExtra("position", 0);
+            startActivity(intent);
         } else if (id == R.id.nav_message) {
+
 
         } else if (id == R.id.nav_vb) {
 
@@ -119,7 +126,8 @@ public class NavDrawer extends AppCompatActivity
         } else if (id == R.id.nav_about) {
 
         } else if (id == R.id.nav_team) {
-
+            Intent intent = new Intent(getApplicationContext(), TheTeam.class);
+            startActivity(intent);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);

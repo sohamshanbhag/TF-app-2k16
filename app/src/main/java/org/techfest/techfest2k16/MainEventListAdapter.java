@@ -52,7 +52,7 @@ public class MainEventListAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         convertView = inflater.inflate(R.layout.grid_row_event, parent, false);
-        TextView textView = (TextView) convertView.findViewById(R.id.eventSubHeading);
+        TextView textView = (TextView) convertView.findViewById(R.id.title);
         final ImageView imageview = (ImageView) convertView.findViewById(R.id.eventSubEvent);
 
         // if it's not recycled, initialize some attributes
