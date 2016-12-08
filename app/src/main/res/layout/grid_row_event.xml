@@ -13,8 +13,32 @@
 
         <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="#FFFFFF">
+            android:layout_height="330dp"
+            android:background="#000000">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="330dp"
+                android:orientation="vertical"
+                android:id="@+id/back"
+                android:background="@drawable/bgcard">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:id="@+id/popup_text"
+                    android:textColor="#FFFFFF"
+                    android:textAppearance="@android:style/TextAppearance.Large"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    android:paddingTop="15dp"
+                    android:textSize="19sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/front">
 
             <ImageView
                 android:id="@+id/eventSubEvent"
@@ -33,7 +57,10 @@
                 android:paddingTop="12dp"
                 android:paddingBottom="12dp"
                 android:background="@color/black3"
-                android:textColor="#FFFFFF"/>
+                android:textColor="#FFFFFF"
+                android:textSize="19sp"
+                android:textAlignment="center"/>
+            </LinearLayout>
 
         </RelativeLayout>
 

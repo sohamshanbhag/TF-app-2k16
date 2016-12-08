@@ -1,6 +1,7 @@
 package org.techfest.techfest2k16;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -26,17 +27,8 @@ public class NavDrawer extends AppCompatActivity
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-//        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
-//        fab.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View view) {
-//                Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-//                        .setAction("Action", null).show();
-//            }
-//        });
-
         /////////////////////
-        Integer[] images = {R.drawable.competitions, R.drawable.exhibitions, R.drawable.technoholix, R.drawable.ozone};
+        Integer[] images = {R.drawable.initiatives1, R.drawable.ideate, R.drawable.front, R.drawable.workshop, R.drawable.lecture, R.drawable.exhi, R.drawable.techx, R.drawable.ozone1};
 
         String[] titles = getResources().getStringArray(R.array.event_titles);
 
@@ -49,6 +41,16 @@ public class NavDrawer extends AppCompatActivity
                                     int position, long id) {
 //                Toast.makeText(NavDrawer.this, "" + position,
 //                        Toast.LENGTH_SHORT).show();
+    //            Intent intent1 = new Intent(getApplicationContext(), PagerFragment.class);
+    //            intent1.putExtra("position", position);
+         //       startActivity(intent1);
+
+                SharedPreferences prefs = getSharedPreferences("my_prefs", MODE_PRIVATE);
+                SharedPreferences.Editor edit = prefs.edit();
+                edit.putString("MID", String.valueOf(position));
+                edit.commit();
+
+
                 Intent intent = new Intent(getApplicationContext(), EventDetail.class);
                 intent.putExtra("position", position);
 //                View sharedView = v.findViewById(R.id.gridRowText);
@@ -117,7 +119,6 @@ public class NavDrawer extends AppCompatActivity
             intent.putExtra("position", 0);
             startActivity(intent);
         } else if (id == R.id.nav_message) {
-
 
         } else if (id == R.id.nav_vb) {
 

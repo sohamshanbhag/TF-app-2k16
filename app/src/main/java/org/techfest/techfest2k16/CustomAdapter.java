@@ -41,7 +41,6 @@ public class CustomAdapter extends ArrayAdapter<Container> {
             v = inflater.inflate(R.layout.single_row1, null);
             return v;
         }
-        Log.d("position",String.valueOf(position));
 
         LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         v = inflater.inflate(R.layout.single_row, null);

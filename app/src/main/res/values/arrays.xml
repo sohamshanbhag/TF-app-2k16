@@ -1,5 +1,142 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- pop details array -->
+    <string-array name="Competitions_venue">
+        <item>LT 006</item>
+        <item>LA Foyer</item>
+        <item>LH 102</item>
+        <item>Convocation Hall</item>
+        <item>SOM Well</item>
+        <item>KV Ground</item>
+        <item>New Swimming Pool</item>
+        <item>LC 202</item>
+        <item>LT 006</item>
+        <item>LA Foyer</item>
+        <item>LC 101</item>
+        <item>LCH Parking</item>
+        <item>Gymkhana Grounds</item>
+        <item>LC 102</item>
+        <item>LH 302</item>
+    </string-array>
+    <string-array name="Workshops_venue">
+        <item>LT 104</item>
+        <item>LC 302</item>
+        <item>LA 101</item>
+        <item>LT 105</item>
+        <item>LH 301</item>
+        <item>LC 301</item>
+        <item>LA 101</item>
+        <item>LA 102</item>
+        <item>LH 102</item>
+        <item>LA 301</item>
+        <item>LA 302,LC 102</item>
+        <item>LH 302</item>
+        <item>LC 002</item>
+        <item>LA 302</item>
+        <item>LA 102,LC 001</item>
+        <item>LT 106</item>
+        <item>LA 301</item>
+    </string-array>
+    <string-array name="Ideate_venue">
+        <item>LC 201</item>
+        <item>Lc 301</item>
+        <item>LA 001</item>
+    </string-array>
+    <string-array name="Technoholix_venue">
+        <item>OAT, SAC</item>
+        <item>OAT, SAC</item>
+        <item>OAT, SAC</item>
+        <item>OAT, SAC</item>
+        <item>OAT, SAC</item>
+    </string-array>
+    <string-array name="Ozone_venue">
+        <item>SOM Foyer</item>
+        <item>SAC Backlawns</item>
+        <item>SAC Backlawns</item>
+        <item>SAC Backlawns</item>
+        <item>SAC Backlawns</item>
+        <item>NCC</item>
+        <item>SAC Backlawns</item>
+        <item>Basketball Court</item>
+        <item>NCC</item>
+        <item>SOM Foyer</item>
+        <item>Convo Foyer</item>
+        <item>Convocation</item>
+        <item>Convocation</item>
+        <item>Convocation</item>
+    </string-array>
+    <string-array name="Lectures_venue">
+        <item>Convocation</item>
+        <item>Convocation</item>
+        <item>PCSA</item>
+        <item>Convocation</item>
+        <item>Convocation</item>
+        <item>LT PCSA</item>
+        <item>FC Kohli</item>
+        <item>LT PCSA</item>
+        <item>LT PCSA</item>
+        <item>LT PCSA</item>
+        <item>FC Kohli</item>
+        <item>LT PCSA</item>
+        <item>LT PCSA</item>
+        <item>FC Kohli</item>
+        <item>FC Kohli</item>
+        <item>FC Kohli</item>
+        <item>FC Kohli</item>
+        <item>FC Kohli</item>
+        <item>Convocation</item>
+    </string-array>
+    <string-array name="Exhibitions_venue">
+        <item>KV Ground</item>
+        <item>KV Ground</item>
+        <item>KV Ground</item>
+        <item>KV Ground</item>
+        <item>KV Ground</item>
+        <item>KV Ground</item>
+        <item>KV Ground</item>
+    </string-array>
+
+    <string-array name="Workshops_date">
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 15,16</item>
+        <item>December 17,18</item>
+        <item>December 17,18</item>
+        <item>December 17,18</item>
+        <item>December 17,18</item>
+        <item>December 17,18</item>
+        <item>December 17,18</item>
+        <item>December 15,16</item>
+        <item>December 15,16</item>
+        <item>December 17,18</item>
+        <item>December 17,18</item>
+        <item>December 17,18</item>
+        <item>December 15,16-17,18</item>
+        <item>December 16</item>
+        <item>December 17,18</item>
+    </string-array>
+    <string-array name="Lectures_date">
+        <item>December 17, 2016</item>
+        <item>December 18, 2016</item>
+        <item>December 18, 2016</item>
+        <item>December 17, 2016</item>
+        <item>December 16, 2016</item>
+        <item>December 17, 2016</item>
+        <item>December 17, 2016</item>
+        <item>December 16, 2016</item>
+        <item>December 16, 2016</item>
+        <item>December 18, 2016</item>
+        <item>December 18, 2016</item>
+        <item>December 18, 2016</item>
+        <item>December 17, 2016</item>
+        <item>December 16, 2016</item>
+        <item>December 16, 2016</item>
+        <item>December 17, 2016</item>
+        <item>December 16, 2016</item>
+        <item>December 17, 2016</item>
+        <item>December 16, 2016</item>
+    </string-array>
+
 
     <string-array name="compi_content">
         <item>Built an autonomous bot who finds the shortest path in the maze of glory</item>
@@ -66,7 +203,6 @@
         <item>Ideate</item>
         <item>Competitions</item>
         <item>Workshops</item>
-        <item>TWMUN</item>
         <item>Lectures</item>
         <item>Exhibitions</item>
         <item>Technoholix</item>
@@ -74,17 +210,15 @@
     </string-array>
 
     <string-array name="Initiatives_text">
-        <item>Initiati_1_text</item>
-        <item>Initiatives_2_text</item>
-        <item>Initiatives_3_text</item>
-        <item>Initiatives_4_text</item>
+        <item>CURED</item>
+        <item>Save The Souls</item>
+        <item>I Am Power</item>
     </string-array>
 
     <string-array name="Ideate_text">
-        <item>Initiati_1_text</item>
-        <item>Initiatives_2_text</item>
-        <item>Initiatives_3_text</item>
-        <item>Initiatives_4_text</item>
+        <item>Internet Of Things</item>
+        <item>Sakhsham</item>
+        <item>Techfest Innovation Challenge</item>
     </string-array>
 
     <string-array name="Competitions_text">
@@ -95,17 +229,23 @@
     </string-array>
 
     <string-array name="Workshops_text">
-        <item>Initiati_1_text</item>
-        <item>Initiatives_2_text</item>
-        <item>Initiatives_3_text</item>
-        <item>Initiatives_4_text</item>
-    </string-array>
-
-    <string-array name="TWMUN_text">
-        <item>Initiati_1_text</item>
-        <item>Initiatives_2_text</item>
-        <item>Initiatives_3_text</item>
-        <item>Initiatives_4_text</item>
+        <item>High Process Computing</item>
+        <item>Data Science</item>
+        <item>Big Data And Hadoop</item>
+        <item>Fitness Band</item>
+        <item>Swarm Robotics</item>
+        <item>Embedded Systems</item>
+        <item>Cyber Forensics</item>
+        <item>Cross Platform Mobile App Development</item>
+        <item>Net Zero Energy Building</item>
+        <item>Android App Development</item>
+        <item>Automobile Mechanics</item>
+        <item>Haptics Robotic Arm</item>
+        <item>Tri-Copter UAV</item>
+        <item>Roboexpedition</item>
+        <item>Solarizer</item>
+        <item>Winning The Money Game</item>
+        <item>Sixth Sense Technology</item>
     </string-array>
 
     <string-array name="Lectures_text">
@@ -121,7 +261,6 @@
         <item>A S Kiran Kumar</item>
         <item>Deepali Pant Joshi</item>
         <item>Henry Throop</item>
-        <item>K. Kasturirangan</item>
         <item>Guenakh Mitselmakher</item>
         <item>Gordon Gill</item>
         <item>Abhas Mitra</item>
@@ -131,17 +270,21 @@
     </string-array>
 
     <string-array name="Exhibitions_text">
-        <item>Tem_1_text</item>
-        <item>Exhibitions_2_text</item>
-        <item>Exhibitions_3_text</item>
-        <item>Exhibitions_4_text</item>
+        <item>Bionic Hands</item>
+        <item>BB8</item>
+        <item>ISRO</item>
+        <item>Puzzlebox Orbit</item>
+        <item>Rollkers</item>
+        <item>Hexapod</item>
+        <item>Auto Expo</item>
     </string-array>
 
     <string-array name="Technoholix_text">
-        <item>Tem_1_text</item>
-        <item>Technoholix_2_text</item>
-        <item>Technoholix_3_text</item>
-        <item>Technoholix_4_text</item>
+        <item>TVF</item>
+        <item>Light Balance</item>
+        <item>Mira Arts</item>
+        <item>Euphoria</item>
+        <item>Sonic Snares</item>
     </string-array>
 
     <string-array name="Ozone_text">
@@ -152,16 +295,14 @@
     </string-array>
 
     <array name="Initiatives_img">
-        <item>@drawable/initiatives</item>
-        <item>@drawable/competitions</item>
-        <item>@drawable/exhibitions</item>
-        <item>@drawable/technoholix</item>
+        <item>@drawable/atkins1</item>
+        <item>@drawable/sts</item>
+        <item>@drawable/iap</item>
     </array>
     <array name="Ideate_img">
-        <item>@drawable/competitions</item>
-        <item>@drawable/exhibitions</item>
-        <item>@drawable/technoholix</item>
-        <item>@drawable/ozone</item>
+        <item>@drawable/iot</item>
+        <item>@drawable/saksham</item>
+        <item>@drawable/mii</item>
     </array>
     <array name="Competitions_img">
 		<item>@drawable/competitions</item>
@@ -170,16 +311,23 @@
 		<item>@drawable/ozone</item>
 	</array>
     <array name="Workshops_img">
-        <item>@drawable/competitions</item>
-        <item>@drawable/exhibitions</item>
-        <item>@drawable/technoholix</item>
-        <item>@drawable/ozone</item>
-    </array>
-    <array name="TWMUN_img">
-        <item>@drawable/competitions</item>
-        <item>@drawable/exhibitions</item>
-        <item>@drawable/technoholix</item>
-        <item>@drawable/ozone</item>
+        <item>@drawable/dir</item>
+        <item>@drawable/hcp</item>
+        <item>@drawable/bigdata</item>
+        <item>@drawable/fb</item>
+        <item>@drawable/sr</item>
+        <item>@drawable/es</item>
+        <item>@drawable/cf</item>
+        <item>@drawable/cpd</item>
+        <item>@drawable/zeb</item>
+        <item>@drawable/android</item>
+        <item>@drawable/am</item>
+        <item>@drawable/haptics</item>
+        <item>@drawable/tuav</item>
+        <item>@drawable/re</item>
+        <item>@drawable/sol</item>
+        <item>@drawable/wmg</item>
+        <item>@drawable/st</item>
     </array>
     <array name="Lectures_img">
         <item>@drawable/rakesh</item>
@@ -194,7 +342,6 @@
         <item>@drawable/kiran</item>
         <item>@drawable/deepali</item>
         <item>@drawable/throop</item>
-        <item>@drawable/kasthurian</item>
         <item>@drawable/guenakh</item>
         <item>@drawable/gill</item>
         <item>@drawable/abhas</item>
@@ -203,16 +350,20 @@
         <item>@drawable/david</item>
     </array>
     <array name="Exhibitions_img">
-		<item>@drawable/competitions</item>
-		<item>@drawable/exhibitions</item>
-		<item>@drawable/technoholix</item>
-		<item>@drawable/ozone</item>
+        <item>@drawable/bionic</item>
+        <item>@drawable/bb8</item>
+        <item>@drawable/isro</item>
+        <item>@drawable/mcbot</item>
+        <item>@drawable/rollkers</item>
+        <item>@drawable/quad1</item>
+        <item>@drawable/autoexpo</item>
 	</array>
 	<array name="Technoholix_img">
-		<item>@drawable/competitions</item>
-		<item>@drawable/exhibitions</item>
-		<item>@drawable/technoholix</item>
-		<item>@drawable/ozone</item>
+        <item>@drawable/tvf</item>
+        <item>@drawable/lb</item>
+        <item>@drawable/mira</item>
+        <item>@drawable/europhia</item>
+        <item>@drawable/ss1</item>
 	</array>
 	<array name="Ozone_img">
 		<item>@drawable/competitions</item>

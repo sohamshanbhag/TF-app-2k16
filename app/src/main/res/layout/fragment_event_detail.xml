@@ -12,7 +12,13 @@
     android:id="@+id/relative"
     android:background="@drawable/background2">
 
+    <TextView
+        android:layout_height="0px"
+        android:layout_width="0px"
+        android:visibility="gone"
+        android:id="@+id/listname">
 
+    </TextView>
     <ListView
         android:id="@+id/eventMainList"
         android:layout_width="match_parent"

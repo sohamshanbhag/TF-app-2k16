@@ -22,6 +22,7 @@ public class MainEventListAdapter extends BaseAdapter {
     private Context mContext;
     private Integer[] mThumbs;
     private String[] mName;
+    TextView tv;
     
     public MainEventListAdapter(Context context, String name){
         mContext = context;
@@ -52,6 +53,7 @@ public class MainEventListAdapter extends BaseAdapter {
     public View getView(int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         convertView = inflater.inflate(R.layout.grid_row_event, parent, false);
+        convertView.findViewById(R.id.back).setVisibility(View.GONE);
         TextView textView = (TextView) convertView.findViewById(R.id.title);
         final ImageView imageview = (ImageView) convertView.findViewById(R.id.eventSubEvent);
 
