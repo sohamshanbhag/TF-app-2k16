@@ -39,7 +39,7 @@
     </string-array>
     <string-array name="Ideate_venue">
         <item>LC 201</item>
-        <item>Lc 301</item>
+        <item>LC 301</item>
         <item>LA 001</item>
     </string-array>
     <string-array name="Technoholix_venue">
@@ -115,30 +115,168 @@
         <item>December 16</item>
         <item>December 17,18</item>
     </string-array>
+    <string-array name="Ideate_date">
+        <item>December 16</item>
+        <item>December 16</item>
+        <item>December 16</item>
+    </string-array>
+    <string-array name="Ozone_date">
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+    </string-array>
+    <string-array name="Competitions_date">
+        <item>December 16,17</item>
+        <item>December 16,17</item>
+        <item>December 16,17</item>
+        <item>December 16-18</item>
+        <item>December 18</item>
+        <item>December 16-18</item>
+        <item>December 16,17</item>
+        <item>December 16</item>
+        <item>December 16</item>
+        <item>December 16-18</item>
+        <item>December 16</item>
+        <item>December 16,17</item>
+        <item>December 16,17</item>
+        <item>December 16</item>
+        <item>December 16</item>
+    </string-array>
+    <string-array name="Technoholix_date">
+        <item>December 16</item>
+        <item>December 16</item>
+        <item>December 17</item>
+        <item>December 18</item>
+        <item>December 18</item>
+    </string-array>
     <string-array name="Lectures_date">
-        <item>December 17, 2016</item>
-        <item>December 18, 2016</item>
-        <item>December 18, 2016</item>
-        <item>December 17, 2016</item>
-        <item>December 16, 2016</item>
-        <item>December 17, 2016</item>
-        <item>December 17, 2016</item>
-        <item>December 16, 2016</item>
-        <item>December 16, 2016</item>
-        <item>December 18, 2016</item>
-        <item>December 18, 2016</item>
-        <item>December 18, 2016</item>
-        <item>December 17, 2016</item>
-        <item>December 16, 2016</item>
-        <item>December 16, 2016</item>
-        <item>December 17, 2016</item>
-        <item>December 16, 2016</item>
-        <item>December 17, 2016</item>
-        <item>December 16, 2016</item>
+        <item>December 17</item>
+        <item>December 18</item>
+        <item>December 18</item>
+        <item>December 17</item>
+        <item>December 16</item>
+        <item>December 17</item>
+        <item>December 17</item>
+        <item>December 16</item>
+        <item>December 16</item>
+        <item>December 18</item>
+        <item>December 18</item>
+        <item>December 18</item>
+        <item>December 17</item>
+        <item>December 16</item>
+        <item>December 16</item>
+        <item>December 17/</item>
+        <item>December 16</item>
+        <item>December 17</item>
+        <item>December 16</item>
+    </string-array>
+    <string-array name="Exhibitions_date">
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+    </string-array>
+
+    <string-array name="Ozone_time">
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+    </string-array>
+    <string-array name="Lectures_time">
+        <item>12pm-1pm</item>
+        <item>4pm-5:30pm</item>
+        <item>10:45am-11:30am</item>
+        <item>4:30pm-5:30pm</item>
+        <item>2pm-3:30pm</item>
+        <item>2:15pm-3:15pm</item>
+        <item>3:30pm-4:15pm</item>
+        <item>3:15pm-4pm</item>
+        <item>11:30am-12:15pm</item>
+        <item>3pm-3:45pm</item>
+        <item>11:45am-12:30pm</item>
+        <item>12:45pm-1:30pm</item>
+        <item>10:45am-11:25pm</item>
+        <item>10:30am-11:15am</item>
+        <item>4:30pm-5:10pm</item>
+        <item>1:15pm-2pm</item>
+        <item>12:30pm-1:15pm</item>
+        <item>10am-10:40am</item>
+        <item>2pm-3:30pm</item>
+    </string-array>
+    <string-array name="Workshops_time">
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+    </string-array>
+    <string-array name="Exhibitions_time">
+        <item>9AM-3PM</item>
+        <item>9AM-3PM</item>
+        <item>9AM-3PM</item>
+        <item>9AM-3PM</item>
+        <item>9AM-3PM</item>
+        <item>9AM-3PM</item>
+        <item>9AM-3PM</item>
+    </string-array>
+    <string-array name="Ideate_time">
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+    </string-array>
+    <string-array name="Technoholix_time">
+        <item>7:30PM-</item>
+        <item>7:30PM-</item>
+        <item>7:30PM-</item>
+        <item>7:30PM-</item>
+        <item>7:30PM-</item>
+    </string-array>
+    <string-array name="Competitions_time">
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
+        <item>9AM-5PM</item>
     </string-array>
 
 
-    <string-array name="compi_content">
+    <string-array name="Competitions_content">
         <item>Built an autonomous bot who finds the shortest path in the maze of glory</item>
         <item>A machine that can cross any hurdles in its path and establish its glory.</item>
         <item>A quest to solve unconventional coding questions</item>
@@ -155,6 +293,72 @@
         <item>Image processing for a data set of satellite imagery that reveals the terrain map</item>
         <item>Design an app that keeps track of your health and awares you of any health problems.</item>
     </string-array>
+    <string-array name="Workshops_content">
+        <item>Get exposed to computational thinking skills and develope parallel processing applications.</item>
+        <item>Get a hands­on experience of the latest data science technology, the real big data applications and methodology</item>
+        <item>Come on this journey to play with large data sets and see Hadoop’s method of distributed processing and see what you can get up to.</item>
+        <item>Learn to make a smartphone synced mobile health monitoring bracelet to provide an innovative solution for monitoring persons health parameters.</item>
+        <item>Learn to accomplish intriguing tasks with perfect coordination and various alignment between hundreds of robots in the Swarm Robotics Workshop</item>
+        <item>With the growing craze for robotics and embedded systems being the core of most robotic applications we bring to you the exclusive embedded systems workshop</item>
+        <item>Brace yourself for the information security industry with technical training oncyber security.</item>
+        <item>It’s the mind-wrenching question that never really gets answered … should I develop for iOS or Android? Not to worry, built an app that works on both !!</item>
+        <item>understand construction methodologies and structuring strategies for Green Compliance through Green Renovation and Revitalization techniques.</item>
+        <item>A theorotical and practical approach to the  technology that has revolutionised the whole world</item>
+        <item>Experience the amazing science of applying touch sensation and control for interaction with virtual or physical applications in combination with a visual display.</item>
+        <item>Tri Copter UAV Workshop brings you the opportunity to build your own Vertical Flying Object.</item>
+        <item>A digital learning of robotics with practical implementation of electronic circuits and sensors</item>
+        <item>Become solar smart with theoretical and practical hands on training in the field of solar energy</item>
+        <item>Most people never become as financially successful as they could be and go through the entire life never knowing why? Know the Money Blueprint invovlved in your situation</item>
+        <item>Learn Sixth Sense Technology, a wearable gestural interface that augments the physical world around us with digital information</item>
+    </string-array>
+    <string-array name="Lectures_content">
+        <item>Rakesh Sharma is a former Indian Air Force pilot who flew aboard Soyuz T-11, launched April 2, 1984, as part of the Intercosmos programme and was the first Indian to a travel in space.</item>
+        <item>Nirmala Sitharaman is an Indian politician from the state of Tamil Nadu presently serving as Minister of State for the Ministry of Commerce and Industry, as well as for Finance and Corporate Affairs.</item>
+        <item>Sharmila Tagore is a Padma Bhushan honoured hindi film actress who also led the Indian Film Censor Board in past. In December 2005 she was chosen as an UNICEF Goodwill Ambassador.</item>
+        <item>Peter William Atkins FRSC is an English chemist and former Professor of Chemistry at the University of Oxford and is a prolific writer of popular chemistry textbooks as well as science books.</item>
+        <item>Bruce Allen is an American physicist and the director of the Max Planck Institute for Gravitational Physics, Germany as well as leader of the Einstein@Home project for the LIGO Scientific Collaboration</item>
+        <item>Mark Papermaster is the Chief Technology Officer at Advanced Micro Devices who also served as the Senior Vice President at Apple Inc. as well as Vice President at IBM.</item>
+        <item>Henry "Fritz" Schaefer III is a computational and theoretical chemist currently acting as the Director of Centre for Computational Chemistry at the University of Georgia.</item>
+        <item>Salil Shetty is a human rights activist who currently serves as Secretary General of the human rights organization Amnesty International before which he was director of the UN Millennium Campaign.</item>
+        <item>Jeff Demain was the Strategy and Business Initiative Director whose planning and execution successful marketing campaigns led a startup to a 1bn$ company popularly referred Intel.</item>
+        <item>Aluru Seelin Kiran Kumar is a Padma Shri honoured Indian space scientist and the chairman of the ISRO, who is credited with the developments of the Chandrayaan-1 and Mangalyaan space crafts.</item>
+        <item>Dr. Deepali Pant Joshi is an Executive Director of the Reserve Bank of India and a well-known Development Economist and a writer on economic subjects.</item>
+        <item>Dr. Henry Throop is a Senior Scientist who is a member of the science team for NASA’s New Horizons mission and is also responsible for writing award-winning software for operations planning.</item>
+        <item>Guenakh Mitselmakher is physicist whose accomplishments include Discovery of the Higgs boson with the CMS detector, measurement of its properties of decaying into four leptons and many more.</item>
+        <item>Gordan Gill, a key architect in Adrian Smith + Gordan Gill Architecture is engaged in the development of energy efficient and sustainable architecture like buildings, cities etc.</item>
+        <item>Abhas Mitra is an Indian astrophysicist best known for his distinct views on several front-line astrophysics concepts, particularly related to black holes and Big Bang Cosmology.</item>
+        <item>Shamit Kachru is a string theorist and a professor of physics at Stanford University who has made notable contributions to the discovery and exploration of string dualities and many more.</item>
+        <item>Bedabrata Pain is an Indian scientist turned film director, producer and screenwriter who has also won National Film Award for Best First Film of a Director for his movie Chittagong.</item>
+        <item>David Baker is a professor of Big History at the University of Amsterdam, who is also writer of the YouTube series Crashcourse Big History.</item>
+    </string-array>
+    <string-array name="Ideate_content">
+        <item>To develop projects and find technical solutions to implement Internet of Things in agriculture, healthcare, transport, safety and surveillance, home automation and to avoid pollution</item>
+        <item>To develop projects and find technical and non-technical solutions for development of rural women</item>
+        <item>To develop any innovative prototype or idea which solves the current problems existing in sectors listed in problem statement which are all basically from Make in India initiative by govt. of India</item>
+    </string-array>
+    <string-array name="Exhibitions_content">
+        <item>The collaboration of technology and human which will left you wondering </item>
+        <item>The loyal astromech from Star Wars movie</item>
+        <item>Rocket models and launch vehicles from the greates space organisation in India</item>
+        <item>Mind controlled Helicopter technology developed in USA</item>
+        <item>Six legged walking mechanism bot</item>
+        <item>Get a chance to see your fantasy bikes and supercars </item>
+        <item>The conceptually unique battery less intelligent camera project from ETH Zurich</item>
+        <item>A novel pocket sized quadrotor withfoldable arms</item>
+    </string-array>
+    <string-array name="Initiatives_content">
+    <item>The aim of this PAN India Initiative is to do diabetes screening of more than 1 lakh people. The people coming at the camp will register properly with their required details by volunteers. There will be a general health check up with diabetes screening and glucose level test by paramedical people.</item>
+    <item>Whenever I look into the eyes of animal, I do not see an animal. I see a friend. I feel a soul. This year, Techfest IIT Bombay has taken up the initiative to raise a voice against the ill-treatment of animals. Let us together make this world a more harmonious place for both humans and animals.</item>
+    <item>Our initiative aims to redress an under-representation of women in employment and career progression in Science Tech Engineering and Maths discipline by attracting, retaining and advancing the women who are critical for the diverse and inclusive workplace, culminating in acceleration of global innovation</item>
+    </string-array>
+    <string-array name="Technoholix_content">
+        <item>It is an online digital entertainment channel, which has been very popular in recent times due their TV series and fun videos.</item>
+        <item>Light balance is about computering the lights that are on the costumes of the artists who then perform accordingly to form a spectacular light show.</item>
+        <item>Acrobatic Dance Theatre Mira-Art, is a professional team of artists and creators, who look for passionate new means of artistic expression, ballet with air acrobatics, music, costume and light</item>
+        <item>Being the leaders of Lithuanian historical reconstruction movement and the oldest fakir show group in Lithuania, this experienced fire group will leave you awestruck by their mesmerising art.</item>
+        <item>The ultimate combination of DJ, electronic percussion and LED effects mixed with powerful live drumming ensures a unique stage spectacle of note.</item>
+    </string-array>
+
 
     <string-array name="contact_name">
         <item>Rakesh Sharma</item>
@@ -221,13 +425,6 @@
         <item>Techfest Innovation Challenge</item>
     </string-array>
 
-    <string-array name="Competitions_text">
-        <item>Competiti_1_text</item>
-        <item>Competitions_2_text</item>
-        <item>Competitions_3_text</item>
-        <item>Competitions_4_text</item>
-    </string-array>
-
     <string-array name="Workshops_text">
         <item>High Process Computing</item>
         <item>Data Science</item>
@@ -288,10 +485,17 @@
     </string-array>
 
     <string-array name="Ozone_text">
-        <item>Tem_1_text</item>
-        <item>Ozone_2_text</item>
-        <item>Ozone_3_text</item>
-        <item>Ozone_4_text</item>
+        <item>9D VR Simulator</item>
+        <item>ATV (All Terrain Vehicle)</item>
+        <item>Eliminator</item>
+        <item>Footy Dart</item>
+        <item>Gaming Zone</item>
+        <item>Go Karting</item>
+        <item>Golf Simulator</item>
+        <item>Just Dance</item>
+        <item>Laser Tag</item>
+        <item>Paint Ball</item>
+        <item>Zorbing</item>
     </string-array>
 
     <array name="Initiatives_img">
@@ -304,12 +508,6 @@
         <item>@drawable/saksham</item>
         <item>@drawable/mii</item>
     </array>
-    <array name="Competitions_img">
-		<item>@drawable/competitions</item>
-		<item>@drawable/exhibitions</item>
-		<item>@drawable/technoholix</item>
-		<item>@drawable/ozone</item>
-	</array>
     <array name="Workshops_img">
         <item>@drawable/dir</item>
         <item>@drawable/hcp</item>
@@ -357,18 +555,25 @@
         <item>@drawable/rollkers</item>
         <item>@drawable/quad1</item>
         <item>@drawable/autoexpo</item>
-	</array>
-	<array name="Technoholix_img">
+    </array>
+    <array name="Technoholix_img">
         <item>@drawable/tvf</item>
         <item>@drawable/lb</item>
         <item>@drawable/mira</item>
         <item>@drawable/europhia</item>
         <item>@drawable/ss1</item>
-	</array>
-	<array name="Ozone_img">
-		<item>@drawable/competitions</item>
-		<item>@drawable/exhibitions</item>
-		<item>@drawable/technoholix</item>
-		<item>@drawable/ozone</item>
-	</array>
+    </array>
+    <array name="Ozone_img">
+        <item>@drawable/nd</item>
+        <item>@drawable/atv</item>
+        <item>@drawable/eliminator</item>
+        <item>@drawable/footydart</item>
+        <item>@drawable/gz</item>
+        <item>@drawable/gk</item>
+        <item>@drawable/gs</item>
+        <item>@drawable/jd</item>
+        <item>@drawable/lasertag</item>
+        <item>@drawable/paintball</item>
+        <item>@drawable/zorbing</item>
+    </array>
 </resources>

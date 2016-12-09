@@ -52,6 +52,9 @@ public class PagerFragment extends Fragment {
     String section;
     String[] listItemsValue;
     String[] venues;
+    String[] dates;
+    String[] time;
+    String[] content;
     private LayoutInflater layoutInflater;
     private PopupWindow popupWindow;
     private View relativeLayout;
@@ -67,7 +70,7 @@ public class PagerFragment extends Fragment {
     TextView pop_tv; //pop up text view
     TextView tv;
 
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+    public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_event_detail,container,false);
          //////////////////////////
 
@@ -106,13 +109,24 @@ public class PagerFragment extends Fragment {
                     }
                 }
                 pop_tv = (TextView) view.findViewById(R.id.popup_text);
-                if  (!s.equals("Initiatives")) {
+                if(s.equals("Initiatives")){
+                    content = getResources().getStringArray(getResources().getIdentifier(s+"_content","array","org.techfest.techfest2k16"));
+                    pop_tv.setText(content[position]);
+                }
+                else if(s.equals("Ozone")){
+                    dates = getResources().getStringArray(getResources().getIdentifier(s+"_date","array","org.techfest.techfest2k16"));
+                    time = getResources().getStringArray(getResources().getIdentifier(s+"_time","array","org.techfest.techfest2k16"));
                     venues = getResources().getStringArray(getResources().getIdentifier(s+"_venue","array","org.techfest.techfest2k16"));
-                    pop_tv.setText("It’s the mind-wrenching question that never really gets answered … should I develop for iOS or Android? Not to worry, built an app that works on both !! \n\n\n\n Venue: " + venues[position] + "\n Date: 9th December\n Time: 9:00pm");
+                    pop_tv.setText("Venue: " + venues[position] + "\n Date: "+dates[position]+"\n Time: "+time[position]);
                 }
-                else{
-                    pop_tv.setText("It’s the mind-wrenching question that never really gets answered … should I develop for iOS or Android? Not to worry, built an app that works on both !!");
+                else {
+                    content = getResources().getStringArray(getResources().getIdentifier(s+"_content","array","org.techfest.techfest2k16"));
+                    dates = getResources().getStringArray(getResources().getIdentifier(s+"_date","array","org.techfest.techfest2k16"));
+                    time = getResources().getStringArray(getResources().getIdentifier(s+"_time","array","org.techfest.techfest2k16"));
+                    venues = getResources().getStringArray(getResources().getIdentifier(s+"_venue","array","org.techfest.techfest2k16"));
+                    pop_tv.setText(content[position]+" \n\n\n\n Venue: " + venues[position] + "\n Date: "+dates[position]+"\n Time: "+time[position]+"");
                 }
+
 
 
                 if(view_ini != view) {
@@ -161,6 +175,34 @@ public class PagerFragment extends Fragment {
 
             view = inflater.inflate(R.layout.competitions, null);
             listview = (ListView) view.findViewById(R.id.list);
+
+            listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+                @Override
+                public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                    title = (TextView) listview.findViewById(R.id.title);
+                    titletext = title.getText().toString();
+
+                    layoutInflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                    View container = layoutInflater.inflate(R.layout.pop_up, null);
+
+                    event = (TextView) container.findViewById(R.id.event);
+                    info = (TextView) container.findViewById(R.id.info);
+                    event.setText(titletext);
+                    info.setText("it will compensate. I might be wrong here, and I don't have a source. This is just what I've gathered \n\n Venue: 5pm \n Date: 18th Decem \n Time: 5pm");
+
+                    popupWindow = new PopupWindow(container, (int) (width * 0.7), (int) (height * 0.6), true);
+                    popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, (int) (width * 0.15), (int) (height * 0.2));
+
+
+                    container.setOnTouchListener(new View.OnTouchListener() {
+                        @Override
+                        public boolean onTouch(View v, MotionEvent event) {
+                            return false;
+                        }
+                    });
+                }
+            });
+
         }
 
 
