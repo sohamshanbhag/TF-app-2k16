@@ -83,19 +83,6 @@ public class PagerFragment extends Fragment {
         height = size.y;
 
         section = getArguments().getString("Section");
-        if(section.equals("Competitions")){
-            data=new ArrayList<>();
-            data.add(new Container("Technorion","RESEMBLANCE","Generex",R.drawable.satellite,R.drawable.generex));
-            data.add(new Container("International Challenge","IRC","Robowars",R.drawable.gt,R.drawable.robowars2));
-            data.add(new Container("Xtreme Machines","Full Throttle","Submerge",R.drawable.ft,R.drawable.sm));
-            data.add(new Container("Tinkerer","Energon","Imitaion Game",R.drawable.energon,R.drawable.da));
-            data.add(new Container("Architectonics","Skyscrapper","Colonize",R.drawable.ss,R.drawable.coloniz));
-            data.add(new Container("Aerostrike","SkyLark","Boeing ACz",R.drawable.quad,R.drawable.boeing));
-            data.add(new Container("Spectechle","Reseblance","Generex",R.drawable.satellite,R.drawable.generex));
-
-            view = inflater.inflate(R.layout.competitions, null);
-            listview = (ListView) view.findViewById(R.id.list);
-        }
 
 
        listview.setOnItemClickListener(new AdapterView.OnItemClickListener()
@@ -161,20 +148,36 @@ public class PagerFragment extends Fragment {
             }
         });
 
-     /**   listview.setOnClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+        if(section.equals("Competitions")){
+            data=new ArrayList<>();
+            data.add(new Container("Technorion","RESEMBLANCE","Generex",R.drawable.satellite,R.drawable.generex));
+            data.add(new Container("International Challenge","IRC","Robowars",R.drawable.gt,R.drawable.robowars2));
+            data.add(new Container("Xtreme Machines","Full Throttle","Submerge",R.drawable.ft,R.drawable.sm));
+            data.add(new Container("Tinkerer","Energon","Imitaion Game",R.drawable.energon,R.drawable.da));
+            data.add(new Container("Architectonics","Skyscrapper","Colonize",R.drawable.ss,R.drawable.coloniz));
+            data.add(new Container("Aerostrike","SkyLark","Boeing ACz",R.drawable.quad,R.drawable.boeing));
+            data.add(new Container("Spectechle","Reseblance","Generex",R.drawable.satellite,R.drawable.generex));
+
+            view = inflater.inflate(R.layout.competitions, null);
+            listview = (ListView) view.findViewById(R.id.list);
+        }
+
+
+        /**   listview.setOnClickListener(new AdapterView.OnItemClickListener() {
+               @Override
+               public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
 
 
 
-                container.setOnTouchListener(new View.OnTouchListener() {
-                    @Override
-                    public boolean onTouch(View v, MotionEvent event) {
-                        return false;
-                    }
-                });
-            }
-        }); **/
+                   container.setOnTouchListener(new View.OnTouchListener() {
+                       @Override
+                       public boolean onTouch(View v, MotionEvent event) {
+                           return false;
+                       }
+                   });
+               }
+           }); **/
 
 
     return view;
