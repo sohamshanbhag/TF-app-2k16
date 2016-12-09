@@ -179,7 +179,7 @@ public class PagerFragment extends Fragment {
             listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
                 public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                    title = (TextView) listview.findViewById(R.id.title);
+                    title = (TextView) view.findViewById(R.id.title);
                     titletext = title.getText().toString();
 
                     layoutInflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
