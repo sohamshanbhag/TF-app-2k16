@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- pop details array -->
+    <string-array name="Main_content">
+        <item>A simple idea can inspire, motivate and produce a change. With an aim to reach the goal of an ideal world, each year we take up social initiatives that inspire dedicated and hardworking volunteers from all ages and walks of life, to come together and be the change they want to see.</item>
+        <item>The sole motto of Ideate is to discover the best ideas and innovations from across the nation that would reform and revolutionize the present day scenario in India. Techfest invites all ruminators to bring in their ideas and act to reform the existing techniques to make this world a better place to live in.</item>
+        <item>Technology never ceases to amaze us with its prodigious involvement in our daily life. In this era of technological advancement and spirit of leaping forward in every way, we invite you to melt your brains in the web of competitions which seek the knack of acting upon mean materials and circuits. Get ready and think hard to aim for extremely mind bending competitions of this edition.</item>
+        <item>Have you always been inquisitive of the cutting edge technology and want an enriching experience while learning them? Or do you want to interact with the students sharing common interest and dive deep into the subject. If yes, then workshops at Techfest bring you face to face with the latest technology while providing you valuable hands-on experience under the guidance of renowned professionals.</item>
+        <item>Eminent personalities, exotic topics and enlightening insights - a segment dedicated to spreading excellence. Lecture series aims at helping millions of young minds realize their dreams by giving them a platform where they can interact with ingenious personalities from all over the world and have an experience of a lifetime.</item>
+        <item>Exhibitions at Techfest plays host to the technological avant-garde, satisfying the inquisitive vigor of spiraling queues and massive hordes every year. This segment offers a sneak peek into the future that is guaranteed to take your breath away.</item>
+        <item>As the day reaches its climax, the lavish open air theatre of IIT Bombay is filled with thousands of people witnessing the aura of the captivating shows by international artists from across the globe enthralling them, filling their veins with adrenaline and leaving a look of awe on their faces.</item>
+        <item>Experience the exhilaration in Ozone with spine tingling events. Get a joyful and thrilling experience seeing the professionals perform breathtaking shows. Encounter an alternate reality, rushing through at breakneck speeds and extra dimensional experience. Ozone has something for one and all.</item>
+    </string-array>
+
     <string-array name="Competitions_venue">
         <item>LT 006</item>
         <item>LA Foyer</item>

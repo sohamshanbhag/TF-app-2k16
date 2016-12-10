@@ -21,6 +21,7 @@ public class MainAdapter extends PagerAdapter{
     public LayoutInflater layoutInflater;
     int position1;
     private String[] title;
+    String content[];
     ViewPager viewPager;
     Integer[] images = {R.drawable.initiatives1, R.drawable.ideate, R.drawable.front, R.drawable.workshop, R.drawable.lecture, R.drawable.exhi, R.drawable.techx, R.drawable.ozone3};
 
@@ -53,7 +54,8 @@ public class MainAdapter extends PagerAdapter{
 
         imageView.setImageResource(images[position]);
         heading.setText(title[position]);
-        discription.setText("Technology never rodigious involvement in our daily life. In this era of technological advancement and spirit of leaping forward in every way, we invite you to melt your brains in the web of competitions which seek the knack of acting upon mean materials and circuits. Get ready and think hard to aim for extremely mind bending competitions of this edition.");
+        content = ctx.getResources().getStringArray(R.array.Main_content);
+        discription.setText(content[position]);
 
 
         container.addView(item_view);

@@ -51,7 +51,7 @@ public class TheTeam extends Activity {
         rl.setLayoutParams(dimesions);
 
         rl.setOrientation(LinearLayout.VERTICAL);
-        rl.setBackgroundResource(R.drawable.background2);
+        rl.setBackgroundResource(R.drawable.background);
 
 
 

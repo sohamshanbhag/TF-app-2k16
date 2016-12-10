@@ -25,11 +25,11 @@
         <activity
             android:name=".AboutUs"
             android:label="About us"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
             android:name=".Sponsor"
             android:label="Sponsors"
-            android:theme="@style/AppTheme"></activity>
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
