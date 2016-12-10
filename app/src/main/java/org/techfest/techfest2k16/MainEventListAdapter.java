@@ -1,9 +1,12 @@
 package org.techfest.techfest2k16;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
 import android.media.Image;
+import android.net.Uri;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +15,7 @@ import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 /**
  * Created by soham_shanbhag on 10/10/16.
@@ -60,6 +64,18 @@ public class MainEventListAdapter extends BaseAdapter {
         // if it's not recycled, initialize some attributes
         textView.setText(mName[position]);
         imageview.setImageResource(mThumbs[position]);
+
+        ImageView iv = (ImageView) convertView.findViewById(R.id.venue);
+        iv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("google.navigation:q=15.2993,74.1240"));
+                intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+                mContext.startActivity(intent);
+                Toast.makeText(mContext,"scs",Toast.LENGTH_SHORT).show();
+                Log.d("dsd","sd");
+            }
+        });
 
         return convertView;
     }

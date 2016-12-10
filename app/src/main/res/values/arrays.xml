@@ -66,25 +66,25 @@
         <item>Convocation</item>
     </string-array>
     <string-array name="Lectures_venue">
-        <item>Convocation</item>
-        <item>Convocation</item>
+        <item>Convocation Hall</item>
+        <item>Convocation Hall</item>
         <item>PCSA</item>
-        <item>Convocation</item>
-        <item>Convocation</item>
+        <item>Convocation Hall</item>
+        <item>Convocation Hall</item>
         <item>LT PCSA</item>
         <item>FC Kohli</item>
         <item>LT PCSA</item>
         <item>LT PCSA</item>
         <item>LT PCSA</item>
         <item>FC Kohli</item>
+        <item>FC Kohli</item>
         <item>LT PCSA</item>
-        <item>LT PCSA</item>
         <item>FC Kohli</item>
         <item>FC Kohli</item>
         <item>FC Kohli</item>
         <item>FC Kohli</item>
         <item>FC Kohli</item>
-        <item>Convocation</item>
+        <item>Convocation Hall</item>
     </string-array>
     <string-array name="Exhibitions_venue">
         <item>KV Ground</item>
@@ -111,7 +111,7 @@
         <item>December 17,18</item>
         <item>December 17,18</item>
         <item>December 17,18</item>
-        <item>December 15,16-17,18</item>
+        <item>December 15,16,17,18</item>
         <item>December 16</item>
         <item>December 17,18</item>
     </string-array>
@@ -171,8 +171,8 @@
         <item>December 17</item>
         <item>December 16</item>
         <item>December 16</item>
-        <item>December 17/</item>
-        <item>December 16</item>
+        <item>December 17</item>
+        <item>December 17</item>
         <item>December 17</item>
         <item>December 16</item>
     </string-array>
@@ -204,11 +204,11 @@
         <item>2pm-3:30pm</item>
         <item>2:15pm-3:15pm</item>
         <item>3:30pm-4:15pm</item>
-        <item>3:15pm-4pm</item>
+        <item>3:30pm-4:15pm</item>
         <item>11:30am-12:15pm</item>
         <item>3pm-3:45pm</item>
-        <item>11:45am-12:30pm</item>
-        <item>12:45pm-1:30pm</item>
+        <item>11:30am-12:15pm</item>
+        <item>9:45pm-10:30pm</item>
         <item>10:45am-11:25pm</item>
         <item>10:30am-11:15am</item>
         <item>4:30pm-5:10pm</item>
@@ -287,14 +287,14 @@
         <item>Battery critically low! A chance to make a reliable 24x7 charger</item>
         <item>Use Analytics to find the best team from given data and predict who will win the game.</item>
         <item>Design and construct a chimney tower using posicles that can sustain the maximm load</item>
-        <item>A challenge to combine energy and enviornment and come up with an economical housing plan</item>
+        <item>A challenge to combine energy and environment and come up with an economical housing plan</item>
         <item>Design a drone of given dimension which can cross the obstacles, carry and hover with the given load</item>
         <item>Asia’s biggest RC model plane competition.</item>
         <item>Image processing for a data set of satellite imagery that reveals the terrain map</item>
         <item>Design an app that keeps track of your health and awares you of any health problems.</item>
     </string-array>
     <string-array name="Workshops_content">
-        <item>Get exposed to computational thinking skills and develope parallel processing applications.</item>
+        <item>Get exposed to computational thinking skills and devlope parallel processing applications.</item>
         <item>Get a hands on experience of the latest data science technology, the real big data applications and methodology</item>
         <item>Come on this journey to play with large data sets and see Hadoop’s method of distributed processing and see what you can get up to.</item>
         <item>Learn to make a smartphone synced mobile health monitoring bracelet to provide an innovative solution for monitoring persons health parameters.</item>
@@ -313,7 +313,7 @@
         <item>Learn Sixth Sense Technology, a wearable gestural interface that augments the physical world around us with digital information</item>
     </string-array>
     <string-array name="Lectures_content">
-        <item>Rakesh Sharma is a former Indian Air Force pilot who flew aboard Soyuz T-11, launched April 2, 1984, as part of the Intercosmos programme and was the first Indian to a travel in space.</item>
+        <item>Rakesh Sharma is a former Indian Air Force pilot who flew aboard Soyuz T-11, launched April 2, 1984, as part of the Intercosmos programme and was the first Indian to travel in space.</item>
         <item>Nirmala Sitharaman is an Indian politician from the state of Tamil Nadu presently serving as Minister of State for the Ministry of Commerce and Industry, as well as for Finance and Corporate Affairs.</item>
         <item>Sharmila Tagore is a Padma Bhushan honoured hindi film actress who also led the Indian Film Censor Board in past. In December 2005 she was chosen as an UNICEF Goodwill Ambassador.</item>
         <item>Peter William Atkins FRSC is an English chemist and former Professor of Chemistry at the University of Oxford and is a prolific writer of popular chemistry textbooks as well as science books.</item>

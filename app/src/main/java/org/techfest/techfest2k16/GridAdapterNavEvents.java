@@ -49,6 +49,8 @@ public class GridAdapterNavEvents extends BaseAdapter {
         imageView.setImageResource(mThumbs[position]);
         textView.setText(mName[position]);
 
+
+
         return convertView;
     }
 }

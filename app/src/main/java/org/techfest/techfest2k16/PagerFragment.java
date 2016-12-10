@@ -124,7 +124,7 @@ public class PagerFragment extends Fragment {
                     dates = getResources().getStringArray(getResources().getIdentifier(s+"_date","array","org.techfest.techfest2k16"));
                     time = getResources().getStringArray(getResources().getIdentifier(s+"_time","array","org.techfest.techfest2k16"));
                     venues = getResources().getStringArray(getResources().getIdentifier(s+"_venue","array","org.techfest.techfest2k16"));
-                    pop_tv.setText(content[position]+" \n\n\n\n Venue: " + venues[position] + "\n Date: "+dates[position]+"\n Time: "+time[position]+"");
+                    pop_tv.setText(content[position]+" \n\n\n Venue: " + venues[position] + "\n Date: "+dates[position]+"\n Time: "+time[position]+"");
                 }
 
 
