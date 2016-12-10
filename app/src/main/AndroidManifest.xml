@@ -22,7 +22,6 @@
             android:name=".EventDetail"
             android:label="@string/title_activity_event_detail"
             android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".Pop"></activity>
         <activity
             android:name=".TheTeam"
             android:label="The Team"
