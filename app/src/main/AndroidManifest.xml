@@ -23,8 +23,12 @@
             android:label="@string/title_activity_event_detail"
             android:theme="@style/AppTheme.NoActionBar"></activity>
         <activity
-            android:name=".TheTeam"
-            android:label="The Team"
+            android:name=".AboutUs"
+            android:label="About us"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".Sponsor"
+            android:label="Sponsors"
             android:theme="@style/AppTheme"></activity>
     </application>
 

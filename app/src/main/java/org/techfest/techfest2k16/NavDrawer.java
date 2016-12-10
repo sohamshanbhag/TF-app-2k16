@@ -1,10 +1,9 @@
 package org.techfest.techfest2k16;
 
 import android.content.Intent;
-import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.support.v4.view.ViewPager;
 import android.util.Log;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
@@ -13,9 +12,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.AdapterView;
-import android.widget.GridView;
-import android.widget.Toast;
+import android.widget.ImageView;
 
 public class NavDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -28,38 +27,15 @@ public class NavDrawer extends AppCompatActivity
         setSupportActionBar(toolbar);
 
         /////////////////////
-        Integer[] images = {R.drawable.initiatives1, R.drawable.ideate, R.drawable.front, R.drawable.workshop, R.drawable.lecture, R.drawable.exhi, R.drawable.techx, R.drawable.ozone1};
 
         String[] titles = getResources().getStringArray(R.array.event_titles);
 
-        final GridView gridview = (GridView) findViewById(R.id.event_grid);
+        final ViewPager gridview = (ViewPager) findViewById(R.id.event_grid);
 
-        gridview.setAdapter(new GridAdapterNavEvents(getApplicationContext(), images, titles));
+        gridview.setAdapter(new MainAdapter(getApplicationContext()));
 
-        gridview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            public void onItemClick(AdapterView<?> parent, View v,
-                                    int position, long id) {
-//                Toast.makeText(NavDrawer.this, "" + position,
-//                        Toast.LENGTH_SHORT).show();
-    //            Intent intent1 = new Intent(getApplicationContext(), PagerFragment.class);
-    //            intent1.putExtra("position", position);
-         //       startActivity(intent1);
+        ImageView imageview = (ImageView) findViewById(R.id.gridRowEventImage);
 
-                SharedPreferences prefs = getSharedPreferences("my_prefs", MODE_PRIVATE);
-                SharedPreferences.Editor edit = prefs.edit();
-                edit.putString("MID", String.valueOf(position));
-                edit.commit();
-
-
-                Intent intent = new Intent(getApplicationContext(), EventDetail.class);
-                intent.putExtra("position", position);
-//                View sharedView = v.findViewById(R.id.gridRowText);
-//                ActivityOptions options = ActivityOptions
-//                        .makeSceneTransitionAnimation(NavDrawer.this, sharedView, "department");
-//                startActivity(intent, options.toBundle());
-                startActivity(intent);
-            }
-        });
 
         /////////////////////
 
@@ -120,14 +96,11 @@ public class NavDrawer extends AppCompatActivity
             startActivity(intent);
         } else if (id == R.id.nav_message) {
 
-        } else if (id == R.id.nav_vb) {
-
-        } else if (id == R.id.nav_map) {
-
-        } else if (id == R.id.nav_about) {
-
-        } else if (id == R.id.nav_team) {
-            Intent intent = new Intent(getApplicationContext(), TheTeam.class);
+        }  else if (id == R.id.nav_about) {
+            Intent intent = new Intent(getApplicationContext(), AboutUs.class);
+            startActivity(intent);
+        } else if (id == R.id.nav_sponsor) {
+            Intent intent = new Intent(getApplicationContext(), Sponsor.class);
             startActivity(intent);
         }
 

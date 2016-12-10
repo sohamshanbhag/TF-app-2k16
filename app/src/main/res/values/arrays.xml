@@ -519,7 +519,22 @@
         <item>Sakhsham</item>
         <item>Techfest Innovation Challenge</item>
     </string-array>
-
+    <string-array name="Competitions_text">
+    <item>Mesh Flare</item>
+    <item>Galatic Cooper</item>
+    <item>Quantum Core</item>
+    <item>IRC</item>
+    <item>Robowars</item>
+    <item>Full Throttle</item>
+    <item>Submerge</item>
+    <item>Energon</item>
+    <item>Imitaion Game</item>
+    <item>Skyscrapper</item>
+    <item>Colonize</item>
+    <item>SkyLark</item>
+    <item>Reseblance</item>
+    <item>Generex</item>
+    </string-array>
     <string-array name="Workshops_text">
         <item>High Process Computing</item>
         <item>Data Science</item>

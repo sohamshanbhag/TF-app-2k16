@@ -99,7 +99,6 @@ public class EventDetail extends AppCompatActivity {
         // automatically handle clicks on the Home/Up butt
         // on, so long
         // as you specify a parent activity in AndroidManifest.xml.
-        Toast.makeText(getApplicationContext(), "Search!!", Toast.LENGTH_LONG).show();
         int id = item.getItemId();
 //
 //        //noinspection SimplifiableIfStatement

@@ -69,6 +69,7 @@ public class PagerFragment extends Fragment {
     View view_ini; //used in flip_store
     TextView pop_tv; //pop up text view
     TextView tv;
+    String compi_title[];
 
     public View onCreateView(LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_event_detail,container,false);
@@ -78,6 +79,8 @@ public class PagerFragment extends Fragment {
         relativeLayout = view.findViewById(R.id.relative);
 
         tv = (TextView) view.findViewById(R.id.listname);
+
+        compi_title = getResources().getStringArray(R.array.Competitions_text);
 
         Display display = ((Activity) getContext()).getWindowManager().getDefaultDisplay();
         Point size = new Point();
@@ -170,11 +173,13 @@ public class PagerFragment extends Fragment {
             data.add(new Container("Xtreme Machines","Full Throttle","Submerge",R.drawable.ft,R.drawable.sm));
             data.add(new Container("Tinkerer","Energon","Imitaion Game",R.drawable.energon,R.drawable.da));
             data.add(new Container("Architectonics","Skyscrapper","Colonize",R.drawable.ss,R.drawable.coloniz));
-            data.add(new Container("Aerostrike","SkyLark","Boeing ACz",R.drawable.quad,R.drawable.boeing));
-            data.add(new Container("Spectechle","Reseblance","Generex",R.drawable.satellite,R.drawable.generex));
+            data.add(new Container("Aerostrike","SkyLark","Boeing AC",R.drawable.quad,R.drawable.boeing));
+            data.add(new Container("Spectechle","Resemblance","Generex",R.drawable.satellite,R.drawable.generex));
 
             view = inflater.inflate(R.layout.competitions, null);
             listview = (ListView) view.findViewById(R.id.list);
+
+
 
             listview.setOnItemClickListener(new AdapterView.OnItemClickListener() {
                 @Override
@@ -188,10 +193,26 @@ public class PagerFragment extends Fragment {
                     event = (TextView) container.findViewById(R.id.event);
                     info = (TextView) container.findViewById(R.id.info);
                     event.setText(titletext);
-                    info.setText("it will compensate. I might be wrong here, and I don't have a source. This is just what I've gathered \n\n Venue: 5pm \n Date: 18th Decem \n Time: 5pm");
 
-                    popupWindow = new PopupWindow(container, (int) (width * 0.7), (int) (height * 0.6), true);
-                    popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, (int) (width * 0.15), (int) (height * 0.2));
+                    String s = "Competitions";
+
+                    content = getResources().getStringArray(getResources().getIdentifier(s+"_content","array","org.techfest.techfest2k16"));
+                    dates = getResources().getStringArray(getResources().getIdentifier(s+"_date","array","org.techfest.techfest2k16"));
+                    time = getResources().getStringArray(getResources().getIdentifier(s+"_time","array","org.techfest.techfest2k16"));
+                    venues = getResources().getStringArray(getResources().getIdentifier(s+"_venue","array","org.techfest.techfest2k16"));
+
+                    if (position == 0){
+                        info.setText(compi_title[0]+":\n "+content[0] + " \n Venue: " + venues[0] + "\n Date: " + dates[0] + "\n Time: " + time[0]+"\n\n\n"+compi_title[1]+":\n "+content[1] + " \n Venue: " + venues[1] + "\n Date: " + dates[1] + "\n Time: " + time[1]+"\n\n\n"+compi_title[2]+":\n "+content[2] + " \n Venue: " + venues[2] + "\n Date: " + dates[2] + "\n Time: " + time[2]);
+                        popupWindow = new PopupWindow(container, (int) (width * 0.8), (int) (height * 0.8), true);
+                        popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, (int) (width * 0.1), (int) (height * 0.1));
+
+                    }
+                    else {
+                        info.setText(compi_title[2*position+1]+":\n "+content[2*position+1] + " \n\n Venue: " + venues[2*position+1] + "\n Date: " + dates[2*position+1] + "\n Time: " + time[2*position+1]+"\n\n\n\n\n"+compi_title[2*position+2]+":\n "+content[2*position+2] + " \n\n\n Venue: " + venues[2*position+2] + "\n Date: " + dates[2*position+2] + "\n Time: " + time[2*position+2]);
+                        popupWindow = new PopupWindow(container, (int) (width * 0.7), (int) (height * 0.6), true);
+                        popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, (int) (width * 0.15), (int) (height * 0.2));
+                    }
+
 
 
                     container.setOnTouchListener(new View.OnTouchListener() {

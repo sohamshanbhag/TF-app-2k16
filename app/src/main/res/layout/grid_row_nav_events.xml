@@ -1,32 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:paddingBottom="-300px"
-    android:layout_marginBottom="0dp"
-    android:paddingLeft="5dp"
-    android:paddingRight="5dp">
-
-    <ImageView
-        android:id="@+id/gridRowEventImage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:adjustViewBounds="true" />
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <TextView
-        android:id="@+id/gridRowEventText"
-        android:layout_below="@id/gridRowEventImage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="-90dp"
-        android:paddingLeft="15dp"
-        android:paddingTop="12dp"
-        android:paddingBottom="12dp"
-        android:background="@color/black3"
-        android:textColor="#FFFFFF"
-        android:textSize="19sp"
-        android:textAlignment="center" />
+        android:text="My Fragment is here ok"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:id="@+id/gridRowEventText"
+        android:textColor="#ffffff"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:background="#60000000"
+
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/back"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/gridRowEventImage"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_weight="1"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/next"
+            android:layout_gravity="center_vertical"
+            android:id="@+id/next"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Technology never ceases to amaze us with its prodigious involvement in our daily life. In this era of technological advancement and spirit of leaping forward in every way, we invite you to melt your brains in the web of competitions which seek the knack of acting upon mean materials and circuits. Get ready and think hard to aim for extremely mind bending competitions of this edition."
+        android:gravity="center"
+        android:textSize="16dp"
+        android:id="@+id/discription"
+        android:textColor="#ffffff"
+        android:paddingTop="30sp"
+        android:padding="20dp"
+        android:background="#45000000"
+        />
 
 </LinearLayout>

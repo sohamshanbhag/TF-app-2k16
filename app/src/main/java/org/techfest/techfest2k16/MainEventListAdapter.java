@@ -36,7 +36,9 @@ public class MainEventListAdapter extends BaseAdapter {
         Resources res = context.getResources();
         mName = res.getStringArray(res.getIdentifier(name + "_text", "array", "org.techfest.techfest2k16"));
         TypedArray ar = res.obtainTypedArray(res.getIdentifier(name + "_img", "array", "org.techfest.techfest2k16"));
-        location = res.getStringArray(res.getIdentifier(name + "_location", "array", "org.techfest.techfest2k16"));
+        if(!name.equals("Initiatives")) {
+            location = res.getStringArray(res.getIdentifier(name + "_location", "array", "org.techfest.techfest2k16"));
+        }
         mThumbs = new Integer[ar.length()];
         for (int i = 0; i < ar.length(); i++)
             mThumbs[i] = ar.getResourceId(i, 0);
@@ -70,6 +72,9 @@ public class MainEventListAdapter extends BaseAdapter {
         imageview.setImageResource(mThumbs[position]);
 
         ImageView iv = (ImageView) convertView.findViewById(R.id.venue);
+        if (section.equals("Initiatives")){
+            iv.setVisibility(View.GONE);
+        }
         iv.setTag("");
         iv.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -77,8 +82,7 @@ public class MainEventListAdapter extends BaseAdapter {
                 Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("google.navigation:q="+location[position]));
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(intent);
-                Toast.makeText(mContext,"scs",Toast.LENGTH_SHORT).show();
-                Log.d("dsd","sd");
+
             }
         });
 

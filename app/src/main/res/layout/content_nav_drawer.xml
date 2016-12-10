@@ -11,7 +11,7 @@
     tools:context="org.techfest.techfest2k16.NavDrawer"
     tools:showIn="@layout/app_bar_nav_drawer">
 
-    <GridView
+  <!--  <GridView
         android:id="@+id/event_grid"
 
         android:paddingBottom="10dp"
@@ -25,7 +25,14 @@
         android:verticalSpacing="20dp"
         android:background="@drawable/background3"
         android:gravity="center"
-        />
+        />  -->
 
+    <android.support.v4.view.ViewPager
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/event_grid"
+        android:background="@drawable/background"
+        >
 
+    </android.support.v4.view.ViewPager>
 </RelativeLayout>
