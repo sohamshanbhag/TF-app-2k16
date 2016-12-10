@@ -348,9 +348,9 @@
         <item>A novel pocket sized quadrotor withfoldable arms</item>
     </string-array>
     <string-array name="Initiatives_content">
-    <item>The aim of this PAN India Initiative is to do diabetes screening of more than 1 lakh people. The people coming at the camp will register properly with their required details by volunteers. There will be a general health check up with diabetes screening and glucose level test by paramedical people.</item>
-    <item>Whenever I look into the eyes of animal, I do not see an animal. I see a friend. I feel a soul. This year, Techfest IIT Bombay has taken up the initiative to raise a voice against the ill-treatment of animals. Let us together make this world a more harmonious place for both humans and animals.</item>
-    <item>Our initiative aims to redress an under-representation of women in employment and career progression in Science Tech Engineering and Maths discipline by attracting, retaining and advancing the women who are critical for the diverse and inclusive workplace, culminating in acceleration of global innovation</item>
+        <item>The aim of this PAN India Initiative is to do diabetes screening of more than 1 lakh people. The people coming at the camp will register properly with their required details by volunteers. There will be a general health check up with diabetes screening and glucose level test by paramedical people.</item>
+        <item>Whenever I look into the eyes of animal, I do not see an animal. I see a friend. I feel a soul. This year, Techfest IIT Bombay has taken up the initiative to raise a voice against the ill-treatment of animals. Let us together make this world a more harmonious place for both humans and animals.</item>
+        <item>Our initiative aims to redress an under-representation of women in employment and career progression in Science Tech Engineering and Maths discipline by attracting, retaining and advancing the women who are critical for the diverse and inclusive workplace, culminating in acceleration of global innovation</item>
     </string-array>
     <string-array name="Technoholix_content">
         <item>It is an online digital entertainment channel, which has been very popular in recent times due their TV series and fun videos.</item>
@@ -360,6 +360,100 @@
         <item>The ultimate combination of DJ, electronic percussion and LED effects mixed with powerful live drumming ensures a unique stage spectacle of note.</item>
     </string-array>
 
+    <string-array name="Competitions_location">
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.131956, 72.914290</item>
+        <item>19.131641, 72.915724</item>
+        <item>19.129157, 72.917865</item>
+        <item>19.135588, 72.912953</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.134538, 72.912178</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+    </string-array>
+    <string-array name="Workshops_location">
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+    </string-array>
+    <string-array name="Ideate_location">
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+        <item>19.130797, 72.916888</item>
+    </string-array>
+    <string-array name="Technoholix_location">
+        <item>19.135040, 72.913395</item>
+        <item>19.135040, 72.913395</item>
+        <item>19.135040, 72.913395</item>
+        <item>19.135040, 72.913395</item>
+        <item>19.135040, 72.913395</item>
+    </string-array>
+    <string-array name="Ozone_location">
+        <item>19.131641, 72.915724</item>
+        <item>19.134479, 72.913556</item>
+        <item>19.134479, 72.913556</item>
+        <item>19.134479, 72.913556</item>
+        <item>19.134479, 72.913556</item>
+        <item>19.133418, 72.913425</item>
+        <item>19.134479, 72.913556</item>
+        <item>19.133940, 72.911931</item>
+        <item>19.133418, 72.913425</item>
+        <item>19.131641, 72.915724</item>
+        <item>19.132147, 72.914680</item>
+        <item>19.131956, 72.914290</item>
+        <item>19.131956, 72.914290</item>
+        <item>19.131956, 72.914290</item>
+    </string-array>
+    <string-array name="Lectures_location">
+        <item>19.131956, 72.914290</item>
+        <item>19.131956, 72.914290</item>
+        <item>19.132383, 72.915772</item>
+        <item>19.131956, 72.914290</item>
+        <item>19.131956, 72.914290</item>
+        <item>19.132383, 72.915772</item>
+        <item>19.130480, 72.915597</item>
+        <item>19.132383, 72.915772</item>
+        <item>19.132383, 72.915772</item>
+        <item>19.132383, 72.915772</item>
+        <item>19.130480, 72.915597</item>
+        <item>19.132383, 72.915772</item>
+        <item>19.132383, 72.915772</item>
+        <item>19.130480, 72.915597</item>
+        <item>19.130480, 72.915597</item>
+        <item>19.130480, 72.915597</item>
+        <item>19.130480, 72.915597</item>
+        <item>19.130480, 72.915597</item>
+        <item>19.131956, 72.914290</item>
+    </string-array>
+    <string-array name="Exhibitions_location">
+        <item>19.129157, 72.917865</item>
+        <item>19.129157, 72.917865</item>
+        <item>19.129157, 72.917865</item>
+        <item>19.129157, 72.917865</item>
+        <item>19.129157, 72.917865</item>
+        <item>19.129157, 72.917865</item>
+        <item>19.129157, 72.917865</item>
+    </string-array>
 
     <string-array name="contact_name">
         <item>Rakesh Sharma</item>

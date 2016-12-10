@@ -26,13 +26,17 @@ public class MainEventListAdapter extends BaseAdapter {
     private Context mContext;
     private Integer[] mThumbs;
     private String[] mName;
+    private String[] location;
     TextView tv;
+    String section;
     
     public MainEventListAdapter(Context context, String name){
+        section = name;
         mContext = context;
         Resources res = context.getResources();
         mName = res.getStringArray(res.getIdentifier(name + "_text", "array", "org.techfest.techfest2k16"));
         TypedArray ar = res.obtainTypedArray(res.getIdentifier(name + "_img", "array", "org.techfest.techfest2k16"));
+        location = res.getStringArray(res.getIdentifier(name + "_location", "array", "org.techfest.techfest2k16"));
         mThumbs = new Integer[ar.length()];
         for (int i = 0; i < ar.length(); i++)
             mThumbs[i] = ar.getResourceId(i, 0);
@@ -54,7 +58,7 @@ public class MainEventListAdapter extends BaseAdapter {
     }
 
     // create a new ImageView for each item referenced by the Adapter
-    public View getView(int position, View convertView, ViewGroup parent) {
+    public View getView(final int position, View convertView, ViewGroup parent) {
         LayoutInflater inflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         convertView = inflater.inflate(R.layout.grid_row_event, parent, false);
         convertView.findViewById(R.id.back).setVisibility(View.GONE);
@@ -66,10 +70,11 @@ public class MainEventListAdapter extends BaseAdapter {
         imageview.setImageResource(mThumbs[position]);
 
         ImageView iv = (ImageView) convertView.findViewById(R.id.venue);
+        iv.setTag("");
         iv.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("google.navigation:q=15.2993,74.1240"));
+                Intent intent = new Intent(android.content.Intent.ACTION_VIEW, Uri.parse("google.navigation:q="+location[position]));
                 intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
                 mContext.startActivity(intent);
                 Toast.makeText(mContext,"scs",Toast.LENGTH_SHORT).show();

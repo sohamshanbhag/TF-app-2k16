@@ -26,4 +26,6 @@
         android:background="@drawable/background3"
         android:gravity="center"
         />
+
+
 </RelativeLayout>
