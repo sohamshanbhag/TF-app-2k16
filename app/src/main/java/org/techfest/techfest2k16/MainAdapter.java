@@ -74,9 +74,11 @@ public class MainAdapter extends PagerAdapter{
 
         if(position == 0){
             back.setVisibility(View.GONE);
+            imageView.setPadding(90,0,0,0);
         }
         else if(position == 7){
             next.setVisibility(View.GONE);
+            imageView.setPadding(0,0,90,0);
         }
 
 
