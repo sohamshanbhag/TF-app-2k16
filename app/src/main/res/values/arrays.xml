@@ -4,9 +4,9 @@
     <string-array name="Main_content">
         <item>A simple idea can inspire, motivate and produce a change. With an aim to reach the goal of an ideal world, each year we take up social initiatives that inspire dedicated and hardworking volunteers from all ages and walks of life, to come together and be the change they want to see.</item>
         <item>The sole motto of Ideate is to discover the best ideas and innovations from across the nation that would reform and revolutionize the present day scenario in India. Techfest invites all ruminators to bring in their ideas and act to reform the existing techniques to make this world a better place to live in.</item>
-        <item>Technology never ceases to amaze us with its prodigious involvement in our daily life. In this era of technological advancement and spirit of leaping forward in every way, we invite you to melt your brains in the web of competitions which seek the knack of acting upon mean materials and circuits. Get ready and think hard to aim for extremely mind bending competitions of this edition.</item>
-        <item>Have you always been inquisitive of the cutting edge technology and want an enriching experience while learning them? Or do you want to interact with the students sharing common interest and dive deep into the subject. If yes, then workshops at Techfest bring you face to face with the latest technology while providing you valuable hands-on experience under the guidance of renowned professionals.</item>
-        <item>Eminent personalities, exotic topics and enlightening insights - a segment dedicated to spreading excellence. Lecture series aims at helping millions of young minds realize their dreams by giving them a platform where they can interact with ingenious personalities from all over the world and have an experience of a lifetime.</item>
+        <item>Technology never ceases to amaze us with its prodigious involvement in our daily life. In this era of technological advancement and spirit of leaping forward in every way, we invite you to melt your brains in the web of competitions. Get ready and think hard to aim for extremely mind bending competitions of this edition.</item>
+        <item>Have you always been inquisitive of the cutting edge technology and want an enriching experience while learning them? Or do you want to interact with the students sharing common interestt. If yes, then workshops at Techfest bring you face to face with the latest technology while providing you valuable hands-on experience.</item>
+        <item>Eminent personalities, exotic topics and enlightening insights - a segment dedicated to spreading excellence. Lecture series aims at helping millions of young minds realize their dreams by giving them a platform where they can interact with ingenious personalities from all over the world.</item>
         <item>Exhibitions at Techfest plays host to the technological avant-garde, satisfying the inquisitive vigor of spiraling queues and massive hordes every year. This segment offers a sneak peek into the future that is guaranteed to take your breath away.</item>
         <item>As the day reaches its climax, the lavish open air theatre of IIT Bombay is filled with thousands of people witnessing the aura of the captivating shows by international artists from across the globe enthralling them, filling their veins with adrenaline and leaving a look of awe on their faces.</item>
         <item>Experience the exhilaration in Ozone with spine tingling events. Get a joyful and thrilling experience seeing the professionals perform breathtaking shows. Encounter an alternate reality, rushing through at breakneck speeds and extra dimensional experience. Ozone has something for one and all.</item>
@@ -96,6 +96,11 @@
         <item>FC Kohli</item>
         <item>FC Kohli</item>
         <item>Convocation Hall</item>
+        <item>IRCC</item>
+        <item>FC Kohli Auditorium</item>
+        <item>FC Kohli Auditorium</item>
+        <item>IRCC</item>
+        <item>IRCC</item>
     </string-array>
     <string-array name="Exhibitions_venue">
         <item>KV Ground</item>
@@ -186,6 +191,11 @@
         <item>December 17</item>
         <item>December 17</item>
         <item>December 16</item>
+        <item>December 17th</item>
+        <item>December 18th</item>
+        <item>December 17th</item>
+        <item>December 17th</item>
+        <item>December 16th</item>
     </string-array>
     <string-array name="Exhibitions_date">
         <item>December 16,17,18</item>
@@ -227,6 +237,11 @@
         <item>12:30pm-1:15pm</item>
         <item>10am-10:40am</item>
         <item>2pm-3:30pm</item>
+        <item>11:00AM–12:00PM</item>
+        <item>12:00PM–1:00PM</item>
+        <item>2:00PM–3:00PM</item>
+        <item>3:00PM–4:00PM</item>
+        <item>2:30PM-3:30PM</item>
     </string-array>
     <string-array name="Workshops_time">
         <item>9AM-5PM</item>
@@ -342,6 +357,11 @@
         <item>Shamit Kachru is a string theorist and a professor of physics at Stanford University who has made notable contributions to the discovery and exploration of string dualities and many more.</item>
         <item>Bedabrata Pain is an Indian scientist turned film director, producer and screenwriter who has also won National Film Award for Best First Film of a Director for his movie Chittagong.</item>
         <item>David Baker is a professor of Big History at the University of Amsterdam, who is also writer of the YouTube series Crashcourse Big History.</item>
+        <item>Rajesh is the president and the CTO of Qube Cinema, That has digital equipment in over 2000 theatres across India. He and his team are the interface between technology and customers</item>
+        <item>Shri R.C. Lodha is the Executive Director of Central Bank of India which is one of the oldest and the largest banks of India.</item>
+        <item>Sudhir Khot is the founder of Financial Fitness. Over all these years, he has travelled his path from negative net worth to a multi crore net worth</item>
+        <item>Yogesh Shenai is Executive Director at SmartStream Technologies, with 17 years of industry experience in delivering software solutions to the middle- and back-offices of investment banks.</item>
+        <item>Ravi Mehrotra is the founder and chief scientist of IDeaS Revenue Solutions. He pioneered Opportunity Cost approach that became industry standard for dealing with stay effects in revenue management</item>
     </string-array>
     <string-array name="Ideate_content">
         <item>To develop projects and find technical solutions to implement Internet of Things in agriculture, healthcare, transport, safety and surveillance, home automation and to avoid pollution</item>
@@ -455,6 +475,11 @@
         <item>19.130480, 72.915597</item>
         <item>19.130480, 72.915597</item>
         <item>19.131956, 72.914290</item>
+        <item>19.131793, 72.915567</item>
+        <item>19.132343, 72.915820</item>
+        <item>19.132343, 72.915820</item>
+        <item>19.131793, 72.915567</item>
+        <item>19.131793, 72.915567</item>
     </string-array>
     <string-array name="Exhibitions_location">
         <item>19.129157, 72.917865</item>
@@ -506,6 +531,11 @@
         <item>@drawable/shamit</item>
         <item>@drawable/pain</item>
         <item>@drawable/david</item>
+        <item>@drawable/lodha</item>
+        <item>@drawable/rajesh</item>
+        <item>@drawable/ravi</item>
+        <item>@drawable/sudhir</item>
+        <item>@drawable/yogesh</item>
     </array>
 
     <string-array name="event_titles">

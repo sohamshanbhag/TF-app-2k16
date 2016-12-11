@@ -33,8 +33,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/gridRowEventImage"
-            android:paddingTop="5dp"
-            android:paddingBottom="5dp"
+            android:paddingTop="3dp"
+            android:paddingBottom="3dp"
             android:layout_weight="1"/>
         <ImageView
             android:layout_width="wrap_content"
@@ -49,11 +49,12 @@
         android:layout_height="wrap_content"
         android:text="Technology never ceases to amaze us with its prodigious involvement in our daily life. In this era of technological advancement and spirit of leaping forward in every way, we invite you to melt your brains in the web of competitions which seek the knack of acting upon mean materials and circuits. Get ready and think hard to aim for extremely mind bending competitions of this edition."
         android:gravity="center"
-        android:textSize="16dp"
+        android:textSize="14dp"
         android:id="@+id/discription"
         android:textColor="#ffffff"
-        android:paddingTop="30sp"
-        android:padding="20dp"
+        android:paddingTop="15dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
         android:background="#45000000"
         />
 

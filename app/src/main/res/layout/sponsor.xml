@@ -29,21 +29,11 @@
 
     </android.support.design.widget.AppBarLayout>
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textAlignment="center"
-        android:text="Sponsors"
-        android:paddingBottom="20dp"
-        android:paddingTop="60dp"
-        android:textSize="25dp"
-        android:background="#90000000"
-        android:textColor="#ffffff"/>
 
     <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="115dp">
+        android:layout_marginTop="55dp">
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
