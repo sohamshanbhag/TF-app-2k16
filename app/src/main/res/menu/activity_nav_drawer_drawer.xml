@@ -16,10 +16,6 @@
     <item android:title="Miscellaneous">
         <menu>
             <item
-                android:id="@+id/nav_map"
-                android:icon="@drawable/ic_menu_map"
-                android:title="Map" />
-            <item
                 android:id="@+id/nav_about"
                 android:icon="@drawable/ic_menu_about"
                 android:title="About Us" />

@@ -10,11 +10,15 @@ import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ImageView;
+import android.widget.Toast;
+
+import java.util.zip.Inflater;
 
 public class NavDrawer extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -35,6 +39,7 @@ public class NavDrawer extends AppCompatActivity
         gridview.setAdapter(new MainAdapter(getApplicationContext()));
 
         ImageView imageview = (ImageView) findViewById(R.id.gridRowEventImage);
+
 
 
         /////////////////////
@@ -95,6 +100,7 @@ public class NavDrawer extends AppCompatActivity
             intent.putExtra("position", 0);
             startActivity(intent);
         } else if (id == R.id.nav_message) {
+            Toast.makeText(this,"This Service will be available soon",Toast.LENGTH_LONG).show();
 
         }  else if (id == R.id.nav_about) {
             Intent intent = new Intent(getApplicationContext(), AboutUs.class);

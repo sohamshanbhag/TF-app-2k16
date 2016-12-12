@@ -13,7 +13,7 @@
     </string-array>
 
     <string-array name="Competitions_venue">
-        <item>LT 006</item>
+        <item>LT 004</item>
         <item>LA Foyer</item>
         <item>LH 102</item>
         <item>Convocation Hall</item>
@@ -22,9 +22,9 @@
         <item>New Swimming Pool</item>
         <item>LC 202</item>
         <item>LT 006</item>
-        <item>LA Foyer</item>
+        <item>LC 002</item>
         <item>LC 101</item>
-        <item>LCH Parking</item>
+        <item>LH 101</item>
         <item>Gymkhana Grounds</item>
         <item>LC 102</item>
         <item>LH 302</item>
@@ -51,7 +51,7 @@
     <string-array name="Ideate_venue">
         <item>LC 201</item>
         <item>LC 301</item>
-        <item>LA 001</item>
+        <item>LC 001</item>
     </string-array>
     <string-array name="Technoholix_venue">
         <item>OAT, SAC</item>
@@ -65,21 +65,20 @@
         <item>SAC Backlawns</item>
         <item>SAC Backlawns</item>
         <item>SAC Backlawns</item>
-        <item>SAC Backlawns</item>
-        <item>NCC</item>
-        <item>SAC Backlawns</item>
+        <item>Convocation Foyer</item>
         <item>Basketball Court</item>
-        <item>NCC</item>
         <item>SOM Foyer</item>
-        <item>Convo Foyer</item>
-        <item>Convocation</item>
-        <item>Convocation</item>
-        <item>Convocation</item>
+        <item>NCC</item>
+        <item>SAC Backlawns</item>
+        <item>NCC</item>
+        <item>SAC Backlawns</item>
+        <item>Convocation Hall</item>
+        <item>Convocation Hall</item>
     </string-array>
     <string-array name="Lectures_venue">
         <item>Convocation Hall</item>
         <item>Convocation Hall</item>
-        <item>PCSA</item>
+        <item>LT PCSA</item>
         <item>Convocation Hall</item>
         <item>Convocation Hall</item>
         <item>LT PCSA</item>
@@ -95,10 +94,10 @@
         <item>FC Kohli</item>
         <item>FC Kohli</item>
         <item>FC Kohli</item>
-        <item>Convocation Hall</item>
         <item>IRCC</item>
         <item>FC Kohli Auditorium</item>
         <item>FC Kohli Auditorium</item>
+        <item>IRCC</item>
         <item>IRCC</item>
         <item>IRCC</item>
     </string-array>
@@ -118,7 +117,7 @@
         <item>December 15,16</item>
         <item>December 17,18</item>
         <item>December 17,18</item>
-        <item>December 17,18</item>
+        <item>December 17</item>
         <item>December 17,18</item>
         <item>December 17,18</item>
         <item>December 17,18</item>
@@ -146,19 +145,23 @@
         <item>December 16,17,18</item>
         <item>December 16,17,18</item>
         <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
+        <item>December 16,17,18</item>
     </string-array>
     <string-array name="Competitions_date">
-        <item>December 16,17</item>
-        <item>December 16,17</item>
-        <item>December 16,17</item>
+        <item>December 16 (Wildcard),17 (Finale)</item>
+        <item>December 16 (Wildcard),17 (Finale)</item>
+        <item>December 16 (Wildcard),17 (Finale)</item>
+        <item>December 15 (India),16 (Finale)</item>
         <item>December 16-18</item>
-        <item>December 18</item>
         <item>December 16-18</item>
         <item>December 16,17</item>
         <item>December 16</item>
         <item>December 16</item>
         <item>December 16-18</item>
-        <item>December 16</item>
+        <item>December 16,17</item>
         <item>December 16,17</item>
         <item>December 16,17</item>
         <item>December 16</item>
@@ -166,7 +169,7 @@
     </string-array>
     <string-array name="Technoholix_date">
         <item>December 16</item>
-        <item>December 16</item>
+        <item>December 17</item>
         <item>December 17</item>
         <item>December 18</item>
         <item>December 18</item>
@@ -188,14 +191,14 @@
         <item>December 16</item>
         <item>December 16</item>
         <item>December 17</item>
+        <item>December 16</item>
+        <item>December 17</item>
+        <item>December 17</item>
+        <item>December 18</item>
         <item>December 17</item>
         <item>December 17</item>
         <item>December 16</item>
-        <item>December 17th</item>
-        <item>December 18th</item>
-        <item>December 17th</item>
-        <item>December 17th</item>
-        <item>December 16th</item>
+        <item>December 17,18</item>
     </string-array>
     <string-array name="Exhibitions_date">
         <item>December 16,17,18</item>
@@ -208,14 +211,19 @@
     </string-array>
 
     <string-array name="Ozone_time">
-        <item>9AM-5PM</item>
-        <item>9AM-5PM</item>
-        <item>9AM-5PM</item>
-        <item>9AM-5PM</item>
-        <item>9AM-5PM</item>
-        <item>9AM-5PM</item>
-        <item>9AM-5PM</item>
-        <item>9AM-5PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
+        <item>9AM-3:30PM</item>
     </string-array>
     <string-array name="Lectures_time">
         <item>12pm-1pm</item>
@@ -236,12 +244,12 @@
         <item>1:15pm-2pm</item>
         <item>12:30pm-1:15pm</item>
         <item>10am-10:40am</item>
-        <item>2pm-3:30pm</item>
         <item>11:00AM–12:00PM</item>
         <item>12:00PM–1:00PM</item>
         <item>2:00PM–3:00PM</item>
         <item>3:00PM–4:00PM</item>
         <item>2:30PM-3:30PM</item>
+        <item>1:30PM-2:30PM</item>
     </string-array>
     <string-array name="Workshops_time">
         <item>9AM-5PM</item>
@@ -362,6 +370,7 @@
         <item>Sudhir Khot is the founder of Financial Fitness. Over all these years, he has travelled his path from negative net worth to a multi crore net worth</item>
         <item>Yogesh Shenai is Executive Director at SmartStream Technologies, with 17 years of industry experience in delivering software solutions to the middle- and back-offices of investment banks.</item>
         <item>Ravi Mehrotra is the founder and chief scientist of IDeaS Revenue Solutions. He pioneered Opportunity Cost approach that became industry standard for dealing with stay effects in revenue management</item>
+        <item>Mukesh Jain is Vice President and Head of NICE. He has led R and D company and built products like Outlook, Hotmail, Messenger, Bing, Analytics, Advertising, Microsoft Crash Analytics, Mobile Apps and Big data Analytics for Jio.</item>
     </string-array>
     <string-array name="Ideate_content">
         <item>To develop projects and find technical solutions to implement Internet of Things in agriculture, healthcare, transport, safety and surveillance, home automation and to avoid pollution</item>
@@ -369,7 +378,7 @@
         <item>To develop any innovative prototype or idea which solves the current problems existing in sectors listed in problem statement which are all basically from Make in India initiative by govt. of India</item>
     </string-array>
     <string-array name="Exhibitions_content">
-        <item>The collaboration of technology and human which will left you wondering </item>
+        <item>The collaboration of technology and human which will leave you wondering </item>
         <item>The loyal astromech from Star Wars movie</item>
         <item>Rocket models and launch vehicles from the greates space organisation in India</item>
         <item>Mind controlled Helicopter technology developed in USA</item>
@@ -388,14 +397,14 @@
         <item>Light balance is about computering the lights that are on the costumes of the artists who then perform accordingly to form a spectacular light show.</item>
         <item>Acrobatic Dance Theatre Mira-Art, is a professional team of artists and creators, who look for passionate new means of artistic expression, ballet with air acrobatics, music, costume and light</item>
         <item>Being the leaders of Lithuanian historical reconstruction movement and the oldest fakir show group in Lithuania, this experienced fire group will leave you awestruck by their mesmerising art.</item>
-        <item>The ultimate combination of DJ, electronic percussion and LED effects mixed with powerful live drumming ensures a unique stage spectacle of note.</item>
+        <item>The ultimate combination of DJ, electronic percussion and LED effects mixed with powerful live drumming ensures a unique stage spectechale of note.</item>
     </string-array>
 
     <string-array name="Competitions_location">
         <item>19.130797, 72.916888</item>
         <item>19.130797, 72.916888</item>
         <item>19.130797, 72.916888</item>
-        <item>19.131956, 72.914290</item>
+        <item>19.132107,72.914560</item>
         <item>19.131641, 72.915724</item>
         <item>19.129157, 72.917865</item>
         <item>19.135588, 72.912953</item>
@@ -444,40 +453,39 @@
         <item>19.134479, 72.913556</item>
         <item>19.134479, 72.913556</item>
         <item>19.134479, 72.913556</item>
-        <item>19.134479, 72.913556</item>
-        <item>19.133418, 72.913425</item>
-        <item>19.134479, 72.913556</item>
-        <item>19.133940, 72.911931</item>
-        <item>19.133418, 72.913425</item>
+        <item>19.132107,72.914560</item>
+        <item>19.133748, 72.912621</item>
         <item>19.131641, 72.915724</item>
-        <item>19.132147, 72.914680</item>
-        <item>19.131956, 72.914290</item>
-        <item>19.131956, 72.914290</item>
-        <item>19.131956, 72.914290</item>
+        <item>19.133418, 72.913425</item>
+        <item>19.134479, 72.913556</item>
+        <item>19.133418, 72.913425</item>
+        <item>19.134479, 72.913556</item>
+        <item>19.132107,72.914560</item>
+        <item>19.132107,72.914560</item>
     </string-array>
     <string-array name="Lectures_location">
-        <item>19.131956, 72.914290</item>
-        <item>19.131956, 72.914290</item>
-        <item>19.132383, 72.915772</item>
-        <item>19.131956, 72.914290</item>
-        <item>19.131956, 72.914290</item>
-        <item>19.132383, 72.915772</item>
-        <item>19.130480, 72.915597</item>
-        <item>19.132383, 72.915772</item>
-        <item>19.132383, 72.915772</item>
-        <item>19.132383, 72.915772</item>
-        <item>19.130480, 72.915597</item>
+        <item>19.132107,72.914560</item> <!-- convo -->
+        <item>19.132107,72.914560</item>
+        <item>19.132383, 72.915772</item>  <!-- PCSA -->
+        <item>19.132107,72.914560</item>  <!-- convo -->
+        <item>19.132107,72.914560</item>
+        <item>19.132383, 72.915772</item>   <!-- pcsa -->
+        <item>19.130480, 72.915597</item>   <!-- FC -->
+        <item>19.132383, 72.915772</item>  <!-- PCSA  -->
         <item>19.132383, 72.915772</item>
         <item>19.132383, 72.915772</item>
+        <item>19.130480, 72.915597</item>   <!-- FC  -->
+        <item>19.130480, 72.915597</item>   <!-- FC  -->
+        <item>19.132383, 72.915772</item>   <!--  pcsa  -->
+        <item>19.130480, 72.915597</item>   <!--  FC  -->
         <item>19.130480, 72.915597</item>
         <item>19.130480, 72.915597</item>
         <item>19.130480, 72.915597</item>
         <item>19.130480, 72.915597</item>
+        <item>19.131793, 72.915567</item>   <!-- IRCC -->
+        <item>19.130480, 72.915597</item>   <!-- FC -->
         <item>19.130480, 72.915597</item>
-        <item>19.131956, 72.914290</item>
-        <item>19.131793, 72.915567</item>
-        <item>19.132343, 72.915820</item>
-        <item>19.132343, 72.915820</item>
+        <item>19.131793, 72.915567</item>   <!-- IRCC -->
         <item>19.131793, 72.915567</item>
         <item>19.131793, 72.915567</item>
     </string-array>
@@ -491,52 +499,6 @@
         <item>19.129157, 72.917865</item>
     </string-array>
 
-    <string-array name="contact_name">
-        <item>Rakesh Sharma</item>
-        <item>Nirmala Sitharaman</item>
-        <item>SHARMILA TAGORE</item>
-        <item>PETER ATKINS</item>
-        <item>Bruce Allen</item>
-        <item>MARK PAPERMASTER</item>
-        <item>HENRY SCHAEFER</item>
-        <item>SALIL SHETTY</item>
-        <item>JEFF DEMAIN</item>
-        <item>A S Kiran Kumar</item>
-        <item>Deepali Pant Joshi</item>
-        <item>Henry Throop</item>
-        <item>K. Kasturirangan</item>
-        <item>Guenakh Mitselmakher</item>
-        <item>Gordon Gill</item>
-        <item>Abhas Mitra</item>
-        <item>Shamit Kachru</item>
-        <item>Bedabrata Pain</item>
-        <item>David Baker</item>
-    </string-array>
-
-    <array name="contact_img">
-        <item>@drawable/rakesh</item>
-        <item>@drawable/sharmila</item>
-        <item>@drawable/atkins</item>
-        <item>@drawable/bruce</item>
-        <item>@drawable/papermaster</item>
-        <item>@drawable/henry</item>
-        <item>@drawable/salil</item>
-        <item>@drawable/kiran</item>
-        <item>@drawable/deepali</item>
-        <item>@drawable/throop</item>
-        <item>@drawable/kasthurian</item>
-        <item>@drawable/guenakh</item>
-        <item>@drawable/gill</item>
-        <item>@drawable/abhas</item>
-        <item>@drawable/shamit</item>
-        <item>@drawable/pain</item>
-        <item>@drawable/david</item>
-        <item>@drawable/lodha</item>
-        <item>@drawable/rajesh</item>
-        <item>@drawable/ravi</item>
-        <item>@drawable/sudhir</item>
-        <item>@drawable/yogesh</item>
-    </array>
 
     <string-array name="event_titles">
         <item>Initiatives</item>
@@ -556,25 +518,26 @@
     </string-array>
 
     <string-array name="Ideate_text">
-        <item>Internet Of Things</item>
-        <item>Sakhsham</item>
+        <item>Infinity Of Things!</item>
+        <item>Saksham</item>
         <item>Techfest Innovation Challenge</item>
     </string-array>
     <string-array name="Competitions_text">
-    <item>Mesh Flare</item>
-    <item>Galatic Cooper</item>
-    <item>Quantum Core</item>
-    <item>IRC</item>
-    <item>Robowars</item>
-    <item>Full Throttle</item>
-    <item>Submerge</item>
-    <item>Energon</item>
-    <item>Imitaion Game</item>
-    <item>Skyscrapper</item>
-    <item>Colonize</item>
-    <item>SkyLark</item>
-    <item>Reseblance</item>
-    <item>Generex</item>
+        <item>Mesh Flare</item>
+        <item>Galatic Cooper</item>
+        <item>Quantum Core</item>
+        <item>IRC</item>
+        <item>Robowars</item>
+        <item>Full Throttle</item>
+        <item>Submerge</item>
+        <item>Energon</item>
+        <item>Imitation Game</item>
+        <item>Skyscrapper</item>
+        <item>Colonize</item>
+        <item>SkyLark</item>
+        <item>Boeing</item>
+        <item>Resemblance</item>
+        <item>Generex</item>
     </string-array>
     <string-array name="Workshops_text">
         <item>High Process Computing</item>
@@ -599,13 +562,13 @@
     <string-array name="Lectures_text">
         <item>Rakesh Sharma</item>
         <item>Nirmala Sitharaman</item>
-        <item>SHARMILA TAGORE</item>
-        <item>PETER ATKINS</item>
+        <item>Sharmila Tagore</item>
+        <item>Peter Atkins</item>
         <item>Bruce Allen</item>
-        <item>MARK PAPERMASTER</item>
-        <item>HENRY SCHAEFER</item>
-        <item>SALIL SHETTY</item>
-        <item>JEFF DEMAIN</item>
+        <item>Mark Papermaster</item>
+        <item>Henry Schaefer</item>
+        <item>Salil Shetty</item>
+        <item>Jeff Demain</item>
         <item>A S Kiran Kumar</item>
         <item>Deepali Pant Joshi</item>
         <item>Henry Throop</item>
@@ -615,6 +578,12 @@
         <item>Shamit Kachru</item>
         <item>Bedabrata Pain</item>
         <item>David Baker</item>
+        <item>Rajesh Ramachandran</item>
+        <item>Shri R.C. Lodha</item>
+        <item>Sudhir Khot</item>
+        <item>Yogesh Shenai</item>
+        <item>Dr. Ravi Mehrotra</item>
+        <item>Mukesh Jain</item>
     </string-array>
 
     <string-array name="Exhibitions_text">
@@ -647,6 +616,8 @@
         <item>Laser Tag</item>
         <item>Paint Ball</item>
         <item>Zorbing</item>
+        <item>TVF</item>
+        <item>Mud Art Show</item>
     </string-array>
 
     <array name="Initiatives_img">
@@ -697,6 +668,12 @@
         <item>@drawable/shamit</item>
         <item>@drawable/pain</item>
         <item>@drawable/david</item>
+        <item>@drawable/rajesh</item>
+        <item>@drawable/lodha</item>
+        <item>@drawable/sudhir</item>
+        <item>@drawable/yogesh</item>
+        <item>@drawable/ravi</item>
+        <item>@drawable/mani</item>
     </array>
     <array name="Exhibitions_img">
         <item>@drawable/bionic</item>
@@ -726,5 +703,7 @@
         <item>@drawable/lasertag</item>
         <item>@drawable/paintball</item>
         <item>@drawable/zorbing</item>
+        <item>@drawable/tvf</item>
+        <item>@drawable/mudpaint</item>
     </array>
 </resources>

@@ -33,6 +33,7 @@ import android.widget.Toast;
 
 import java.util.ArrayList;
 
+import static android.view.View.GONE;
 import static android.view.View.VISIBLE;
 
 /**
@@ -133,11 +134,16 @@ public class PagerFragment extends Fragment {
 
 
                 if(view_ini != view) {
+
                     flip(view.findViewById(R.id.front), view.findViewById(R.id.back), 400);
+
                 }
                 if (view_ini != null && view_ini != view){
-                    flip(view_ini.findViewById(R.id.back), view_ini.findViewById(R.id.front), 400);
+                    if (view_ini.findViewById(R.id.front).getVisibility() == GONE) {
+                        flip(view_ini.findViewById(R.id.back), view_ini.findViewById(R.id.front), 400);
+                    }
                 }
+
 
                 view_ini = view;
 
@@ -174,7 +180,7 @@ public class PagerFragment extends Fragment {
             data.add(new Container("Tinkerer","Energon","Imitaion Game",R.drawable.energon,R.drawable.da));
             data.add(new Container("Architectonics","Skyscrapper","Colonize",R.drawable.ss,R.drawable.coloniz));
             data.add(new Container("Aerostrike","SkyLark","Boeing AC",R.drawable.quad,R.drawable.boeing));
-            data.add(new Container("Spectechle","Resemblance","Generex",R.drawable.satellite,R.drawable.generex));
+            data.add(new Container("Spectechale","Resemblance","Generex",R.drawable.satellite,R.drawable.generex));
 
             view = inflater.inflate(R.layout.competitions, null);
             listview = (ListView) view.findViewById(R.id.list);
@@ -202,15 +208,15 @@ public class PagerFragment extends Fragment {
                     venues = getResources().getStringArray(getResources().getIdentifier(s+"_venue","array","org.techfest.techfest2k16"));
 
                     if (position == 0){
-                        info.setText(compi_title[0]+":\n "+content[0] + " \n Venue: " + venues[0] + "\n Date: " + dates[0] + "\n Time: " + time[0]+"\n\n\n"+compi_title[1]+":\n "+content[1] + " \n Venue: " + venues[1] + "\n Date: " + dates[1] + "\n Time: " + time[1]+"\n\n\n"+compi_title[2]+":\n "+content[2] + " \n Venue: " + venues[2] + "\n Date: " + dates[2] + "\n Time: " + time[2]);
-                        popupWindow = new PopupWindow(container, (int) (width * 0.8), (int) (height * 0.8), true);
-                        popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, (int) (width * 0.1), (int) (height * 0.1));
+                        info.setText(compi_title[0]+":\n "+content[0] + " \n Venue: " + venues[0] + "\n Date: " + dates[0] + "\n Time: " + time[0]+"\n\n"+compi_title[1]+":\n "+content[1] + " \n Venue: " + venues[1] + "\n Date: " + dates[1] + "\n Time: " + time[1]+"\n\n"+compi_title[2]+":\n "+content[2] + " \n Venue: " + venues[2] + "\n Date: " + dates[2] + "\n Time: " + time[2]);
+                        popupWindow = new PopupWindow(container, (int) (width * 0.8), (int) (height * 0.85), true);
+                        popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, (int) (width * 0.1), (int) (height * 0.075));
 
                     }
                     else {
-                        info.setText(compi_title[2*position+1]+":\n "+content[2*position+1] + " \n\n Venue: " + venues[2*position+1] + "\n Date: " + dates[2*position+1] + "\n Time: " + time[2*position+1]+"\n\n\n\n\n"+compi_title[2*position+2]+":\n "+content[2*position+2] + " \n\n\n Venue: " + venues[2*position+2] + "\n Date: " + dates[2*position+2] + "\n Time: " + time[2*position+2]);
-                        popupWindow = new PopupWindow(container, (int) (width * 0.7), (int) (height * 0.6), true);
-                        popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, (int) (width * 0.15), (int) (height * 0.2));
+                        info.setText(compi_title[2*position+1]+":\n "+content[2*position+1] + " \n\n Venue: " + venues[2*position+1] + "\n Date: " + dates[2*position+1] + "\n Time: " + time[2*position+1]+"\n\n\n\n"+compi_title[2*position+2]+":\n "+content[2*position+2] + " \n\n\n Venue: " + venues[2*position+2] + "\n Date: " + dates[2*position+2] + "\n Time: " + time[2*position+2]);
+                        popupWindow = new PopupWindow(container, (int) (width * 0.7), (int) (height * 0.8), true);
+                        popupWindow.showAtLocation(relativeLayout, Gravity.NO_GRAVITY, (int) (width * 0.15), (int) (height * 0.1));
                     }
 
 
@@ -269,7 +275,7 @@ public class PagerFragment extends Fragment {
             AnimatorSet set = new AnimatorSet();
             set.playSequentially(
                     ObjectAnimator.ofFloat(front, "rotationY", 90).setDuration(duration / 2),
-                    ObjectAnimator.ofInt(front, "visibility", View.GONE).setDuration(0),
+                    ObjectAnimator.ofInt(front, "visibility", GONE).setDuration(0),
                     ObjectAnimator.ofFloat(back, "rotationY", -90).setDuration(0),
                     ObjectAnimator.ofInt(back, "visibility", VISIBLE).setDuration(0),
                     ObjectAnimator.ofFloat(back, "rotationY", 0).setDuration(duration / 2));
@@ -281,7 +287,7 @@ public class PagerFragment extends Fragment {
                     {
                         @Override
                         public void onAnimationEnd(Animator animation) {
-                            front.setVisibility(View.GONE);
+                            front.setVisibility(GONE);
                             back.setRotationY(-90);
                             back.setVisibility(VISIBLE);
                             back.animate().rotationY(0).setDuration(duration / 2).setListener(null);
